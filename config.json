@@ -1,0 +1,12 @@
+{
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+  "url": "https://www.se7ensins.com/downloads/",
+  "num_browsers": 1,
+  "auto_submit": false,
+  "skip_cloudflare": true,
+  "category_id": null,
+  "tag": null,
+  "upload_wait_timeout": 180,
+  "upload_wait_base": 30,
+  "upload_wait_per_mb": 0.75
+}
