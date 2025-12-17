@@ -1,0 +1,2812 @@
+{
+    "1": {
+        "name": "Development Tools",
+        "href": "https://gbatemp.net/download/categories/development-tools.1666/add",
+        "cat_id": "1666"
+    },
+    "2": {
+        "name": "Emulators",
+        "href": "https://gbatemp.net/download/categories/emulators.1667/add",
+        "cat_id": "1667"
+    },
+    "3": {
+        "name": "Game Saves",
+        "href": "https://gbatemp.net/download/categories/game-saves.1668/add",
+        "cat_id": "1668"
+    },
+    "4": {
+        "name": "Cheats",
+        "href": "https://gbatemp.net/download/categories/cheats.1691/add",
+        "cat_id": "1691"
+    },
+    "5": {
+        "name": "Homebrew",
+        "href": "https://gbatemp.net/download/categories/homebrew.1669/add",
+        "cat_id": "1669"
+    },
+    "6": {
+        "name": "Soft mods & Loaders",
+        "href": "https://gbatemp.net/download/categories/soft-mods-loaders.1670/add",
+        "cat_id": "1670"
+    },
+    "7": {
+        "name": "Themes",
+        "href": "https://gbatemp.net/download/categories/themes.1671/add",
+        "cat_id": "1671"
+    },
+    "8": {
+        "name": "Tools & Utilities",
+        "href": "https://gbatemp.net/download/categories/tools-utilities.1672/add",
+        "cat_id": "1672"
+    },
+    "9": {
+        "name": "Other Switch files",
+        "href": "https://gbatemp.net/download/categories/other-switch-files.1673/add",
+        "cat_id": "1673"
+    },
+    "10": {
+        "name": "Themes",
+        "href": "https://gbatemp.net/download/categories/themes.1674/add",
+        "cat_id": "1674"
+    },
+    "11": {
+        "name": "Development Tools",
+        "href": "https://gbatemp.net/download/categories/development-tools.1664/add",
+        "cat_id": "1664"
+    },
+    "12": {
+        "name": "Flashcart Files",
+        "href": "https://gbatemp.net/download/categories/flashcart-files.1658/add",
+        "cat_id": "1658"
+    },
+    "13": {
+        "name": "Game Saves",
+        "href": "https://gbatemp.net/download/categories/game-saves.1660/add",
+        "cat_id": "1660"
+    },
+    "14": {
+        "name": "Homebrew",
+        "href": "https://gbatemp.net/download/categories/homebrew.1659/add",
+        "cat_id": "1659"
+    },
+    "15": {
+        "name": "Other 3DS Files",
+        "href": "https://gbatemp.net/download/categories/other-3ds-files.1662/add",
+        "cat_id": "1662"
+    },
+    "16": {
+        "name": "Utilities",
+        "href": "https://gbatemp.net/download/categories/utilities.1661/add",
+        "cat_id": "1661"
+    },
+    "17": {
+        "name": "Education & Learning",
+        "href": "https://gbatemp.net/download/categories/education-learning.1574/add",
+        "cat_id": "1574"
+    },
+    "18": {
+        "name": "Files & Tools",
+        "href": "https://gbatemp.net/download/categories/files-tools.1575/add",
+        "cat_id": "1575"
+    },
+    "19": {
+        "name": "Internet",
+        "href": "https://gbatemp.net/download/categories/internet.1571/add",
+        "cat_id": "1571"
+    },
+    "20": {
+        "name": "Miscellaneous & Mini Applications",
+        "href": "https://gbatemp.net/download/categories/miscellaneous-mini-applications.1576/add",
+        "cat_id": "1576"
+    },
+    "21": {
+        "name": "Multimedia",
+        "href": "https://gbatemp.net/download/categories/multimedia.1572/add",
+        "cat_id": "1572"
+    },
+    "22": {
+        "name": "Productivity",
+        "href": "https://gbatemp.net/download/categories/productivity.1573/add",
+        "cat_id": "1573"
+    },
+    "23": {
+        "name": "Adventure",
+        "href": "https://gbatemp.net/download/categories/adventure.1561/add",
+        "cat_id": "1561"
+    },
+    "24": {
+        "name": "Arcade",
+        "href": "https://gbatemp.net/download/categories/arcade.1569/add",
+        "cat_id": "1569"
+    },
+    "25": {
+        "name": "Driving",
+        "href": "https://gbatemp.net/download/categories/driving.1562/add",
+        "cat_id": "1562"
+    },
+    "26": {
+        "name": "FPS",
+        "href": "https://gbatemp.net/download/categories/fps.1565/add",
+        "cat_id": "1565"
+    },
+    "27": {
+        "name": "Mini-games",
+        "href": "https://gbatemp.net/download/categories/mini-games.1570/add",
+        "cat_id": "1570"
+    },
+    "28": {
+        "name": "Miscellaneous",
+        "href": "https://gbatemp.net/download/categories/miscellaneous.1563/add",
+        "cat_id": "1563"
+    },
+    "29": {
+        "name": "Platform",
+        "href": "https://gbatemp.net/download/categories/platform.1560/add",
+        "cat_id": "1560"
+    },
+    "30": {
+        "name": "Puzzle",
+        "href": "https://gbatemp.net/download/categories/puzzle.1577/add",
+        "cat_id": "1577"
+    },
+    "31": {
+        "name": "RPG",
+        "href": "https://gbatemp.net/download/categories/rpg.1564/add",
+        "cat_id": "1564"
+    },
+    "32": {
+        "name": "Simulation",
+        "href": "https://gbatemp.net/download/categories/simulation.1566/add",
+        "cat_id": "1566"
+    },
+    "33": {
+        "name": "Sports",
+        "href": "https://gbatemp.net/download/categories/sports.1567/add",
+        "cat_id": "1567"
+    },
+    "34": {
+        "name": "Strategy",
+        "href": "https://gbatemp.net/download/categories/strategy.1568/add",
+        "cat_id": "1568"
+    },
+    "35": {
+        "name": "Acekard Series",
+        "href": "https://gbatemp.net/download/categories/acekard-series.1527/add",
+        "cat_id": "1527"
+    },
+    "36": {
+        "name": "CycloDS Series",
+        "href": "https://gbatemp.net/download/categories/cyclods-series.1529/add",
+        "cat_id": "1529"
+    },
+    "37": {
+        "name": "DSTT Series",
+        "href": "https://gbatemp.net/download/categories/dstt-series.1528/add",
+        "cat_id": "1528"
+    },
+    "38": {
+        "name": "EDGE Series",
+        "href": "https://gbatemp.net/download/categories/edge-series.1530/add",
+        "cat_id": "1530"
+    },
+    "39": {
+        "name": "EZ-Flash Series",
+        "href": "https://gbatemp.net/download/categories/ez-flash-series.1531/add",
+        "cat_id": "1531"
+    },
+    "40": {
+        "name": "iSmartDS Series",
+        "href": "https://gbatemp.net/download/categories/ismartds-series.1586/add",
+        "cat_id": "1586"
+    },
+    "41": {
+        "name": "M3, iTouchDS & G6 Series",
+        "href": "https://gbatemp.net/download/categories/m3-itouchds-g6-series.1532/add",
+        "cat_id": "1532"
+    },
+    "42": {
+        "name": "Other Slot-1 Files",
+        "href": "https://gbatemp.net/download/categories/other-slot-1-files.1534/add",
+        "cat_id": "1534"
+    },
+    "43": {
+        "name": "Other Slot-2 Files",
+        "href": "https://gbatemp.net/download/categories/other-slot-2-files.1078/add",
+        "cat_id": "1078"
+    },
+    "44": {
+        "name": "R4 series",
+        "href": "https://gbatemp.net/download/categories/r4-series.1526/add",
+        "cat_id": "1526"
+    },
+    "45": {
+        "name": "Supercard Series",
+        "href": "https://gbatemp.net/download/categories/supercard-series.1533/add",
+        "cat_id": "1533"
+    },
+    "46": {
+        "name": "Content, map & level edits",
+        "href": "https://gbatemp.net/download/categories/content-map-level-edits.100/add",
+        "cat_id": "100"
+    },
+    "47": {
+        "name": "Game Fixes",
+        "href": "https://gbatemp.net/download/categories/game-fixes.101/add",
+        "cat_id": "101"
+    },
+    "48": {
+        "name": "Other ROM hacks",
+        "href": "https://gbatemp.net/download/categories/other-rom-hacks.102/add",
+        "cat_id": "102"
+    },
+    "49": {
+        "name": "Trainers",
+        "href": "https://gbatemp.net/download/categories/trainers.99/add",
+        "cat_id": "99"
+    },
+    "50": {
+        "name": "Translations",
+        "href": "https://gbatemp.net/download/categories/translations.98/add",
+        "cat_id": "98"
+    },
+    "51": {
+        "name": "Acekard Skins",
+        "href": "https://gbatemp.net/download/categories/acekard-skins.1074/add",
+        "cat_id": "1074"
+    },
+    "52": {
+        "name": "CycloDS Skins",
+        "href": "https://gbatemp.net/download/categories/cyclods-skins.114/add",
+        "cat_id": "114"
+    },
+    "53": {
+        "name": "DSTT Skins",
+        "href": "https://gbatemp.net/download/categories/dstt-skins.115/add",
+        "cat_id": "115"
+    },
+    "54": {
+        "name": "EDGE Skins",
+        "href": "https://gbatemp.net/download/categories/edge-skins.1076/add",
+        "cat_id": "1076"
+    },
+    "55": {
+        "name": "EZ-Flash V Skins",
+        "href": "https://gbatemp.net/download/categories/ez-flash-v-skins.116/add",
+        "cat_id": "116"
+    },
+    "56": {
+        "name": "G6 & M3 Skins",
+        "href": "https://gbatemp.net/download/categories/g6-m3-skins.117/add",
+        "cat_id": "117"
+    },
+    "57": {
+        "name": "Homebrew & Applications Skins",
+        "href": "https://gbatemp.net/download/categories/homebrew-applications-skins.122/add",
+        "cat_id": "122"
+    },
+    "58": {
+        "name": "N-Card Skins (and clones)",
+        "href": "https://gbatemp.net/download/categories/n-card-skins-and-clones.118/add",
+        "cat_id": "118"
+    },
+    "59": {
+        "name": "Other flashcarts and adapters",
+        "href": "https://gbatemp.net/download/categories/other-flashcarts-and-adapters.121/add",
+        "cat_id": "121"
+    },
+    "60": {
+        "name": "R4/M3 Skins",
+        "href": "https://gbatemp.net/download/categories/r4-m3-skins.119/add",
+        "cat_id": "119"
+    },
+    "61": {
+        "name": "Supercard DSONE Skins",
+        "href": "https://gbatemp.net/download/categories/supercard-dsone-skins.120/add",
+        "cat_id": "120"
+    },
+    "62": {
+        "name": "Supercard DSTWO Skins",
+        "href": "https://gbatemp.net/download/categories/supercard-dstwo-skins.1579/add",
+        "cat_id": "1579"
+    },
+    "63": {
+        "name": "Other game save formats",
+        "href": "https://gbatemp.net/download/categories/other-game-save-formats.113/add",
+        "cat_id": "113"
+    },
+    "64": {
+        "name": "Save Compatibility Group 1",
+        "href": "https://gbatemp.net/download/categories/save-compatibility-group-1.109/add",
+        "cat_id": "109"
+    },
+    "65": {
+        "name": "Save Compatibility Group 2",
+        "href": "https://gbatemp.net/download/categories/save-compatibility-group-2.110/add",
+        "cat_id": "110"
+    },
+    "66": {
+        "name": "Save Compatibility Group 3",
+        "href": "https://gbatemp.net/download/categories/save-compatibility-group-3.111/add",
+        "cat_id": "111"
+    },
+    "67": {
+        "name": "Save Compatibility Group 4",
+        "href": "https://gbatemp.net/download/categories/save-compatibility-group-4.112/add",
+        "cat_id": "112"
+    },
+    "68": {
+        "name": "Emulators for NDS",
+        "href": "https://gbatemp.net/download/categories/emulators-for-nds.95/add",
+        "cat_id": "95"
+    },
+    "69": {
+        "name": "NDS Emulators",
+        "href": "https://gbatemp.net/download/categories/nds-emulators.127/add",
+        "cat_id": "127"
+    },
+    "70": {
+        "name": "Cheat codes instructions & FAQs",
+        "href": "https://gbatemp.net/download/categories/cheat-codes-instructions-faqs.1518/add",
+        "cat_id": "1518"
+    },
+    "71": {
+        "name": "Cheat DB Compatibility Group 1",
+        "href": "https://gbatemp.net/download/categories/cheat-db-compatibility-group-1.103/add",
+        "cat_id": "103"
+    },
+    "72": {
+        "name": "Cheat DB Compatibility Group 2",
+        "href": "https://gbatemp.net/download/categories/cheat-db-compatibility-group-2.104/add",
+        "cat_id": "104"
+    },
+    "73": {
+        "name": "Cheat DB Compatibility Group 3",
+        "href": "https://gbatemp.net/download/categories/cheat-db-compatibility-group-3.105/add",
+        "cat_id": "105"
+    },
+    "74": {
+        "name": "Cheat DB Compatibility Group 4",
+        "href": "https://gbatemp.net/download/categories/cheat-db-compatibility-group-4.106/add",
+        "cat_id": "106"
+    },
+    "75": {
+        "name": "Cheat DB Compatibility Group 5",
+        "href": "https://gbatemp.net/download/categories/cheat-db-compatibility-group-5.107/add",
+        "cat_id": "107"
+    },
+    "76": {
+        "name": "Cheat DB Compatibility Group 6",
+        "href": "https://gbatemp.net/download/categories/cheat-db-compatibility-group-6.108/add",
+        "cat_id": "108"
+    },
+    "77": {
+        "name": "Other cheat files",
+        "href": "https://gbatemp.net/download/categories/other-cheat-files.1077/add",
+        "cat_id": "1077"
+    },
+    "78": {
+        "name": "Development Tools & Resources",
+        "href": "https://gbatemp.net/download/categories/development-tools-resources.123/add",
+        "cat_id": "123"
+    },
+    "79": {
+        "name": "Other Tools",
+        "href": "https://gbatemp.net/download/categories/other-tools.126/add",
+        "cat_id": "126"
+    },
+    "80": {
+        "name": "ROM Managers & Renamers",
+        "href": "https://gbatemp.net/download/categories/rom-managers-renamers.124/add",
+        "cat_id": "124"
+    },
+    "81": {
+        "name": "ROM Patchers & Header info",
+        "href": "https://gbatemp.net/download/categories/rom-patchers-header-info.125/add",
+        "cat_id": "125"
+    },
+    "82": {
+        "name": "DLDI Files",
+        "href": "https://gbatemp.net/download/categories/dldi-files.129/add",
+        "cat_id": "129"
+    },
+    "83": {
+        "name": "Other",
+        "href": "https://gbatemp.net/download/categories/other.130/add",
+        "cat_id": "130"
+    },
+    "84": {
+        "name": "Other Devices",
+        "href": "https://gbatemp.net/download/categories/other-devices.176/add",
+        "cat_id": "176"
+    },
+    "85": {
+        "name": "USB Gecko",
+        "href": "https://gbatemp.net/download/categories/usb-gecko.175/add",
+        "cat_id": "175"
+    },
+    "86": {
+        "name": "Wiimote Drivers",
+        "href": "https://gbatemp.net/download/categories/wiimote-drivers.174/add",
+        "cat_id": "174"
+    },
+    "87": {
+        "name": "Wii and Wii U Emulators",
+        "href": "https://gbatemp.net/download/categories/wii-and-wii-u-emulators.184/add",
+        "cat_id": "184"
+    },
+    "88": {
+        "name": "Game saves",
+        "href": "https://gbatemp.net/download/categories/game-saves.165/add",
+        "cat_id": "165"
+    },
+    "89": {
+        "name": "Applications",
+        "href": "https://gbatemp.net/download/categories/applications.181/add",
+        "cat_id": "181"
+    },
+    "90": {
+        "name": "Emulators",
+        "href": "https://gbatemp.net/download/categories/emulators.182/add",
+        "cat_id": "182"
+    },
+    "91": {
+        "name": "Games",
+        "href": "https://gbatemp.net/download/categories/games.180/add",
+        "cat_id": "180"
+    },
+    "92": {
+        "name": "Multimedia",
+        "href": "https://gbatemp.net/download/categories/multimedia.183/add",
+        "cat_id": "183"
+    },
+    "93": {
+        "name": "Boot Discs",
+        "href": "https://gbatemp.net/download/categories/boot-discs.179/add",
+        "cat_id": "179"
+    },
+    "94": {
+        "name": "SD Card Loaders",
+        "href": "https://gbatemp.net/download/categories/sd-card-loaders.177/add",
+        "cat_id": "177"
+    },
+    "95": {
+        "name": "USB Loaders",
+        "href": "https://gbatemp.net/download/categories/usb-loaders.178/add",
+        "cat_id": "178"
+    },
+    "96": {
+        "name": "Firmwares & Loaders",
+        "href": "https://gbatemp.net/download/categories/firmwares-loaders.172/add",
+        "cat_id": "172"
+    },
+    "97": {
+        "name": "Other Tools & Files",
+        "href": "https://gbatemp.net/download/categories/other-tools-files.173/add",
+        "cat_id": "173"
+    },
+    "98": {
+        "name": "Other Files",
+        "href": "https://gbatemp.net/download/categories/other-files.166/add",
+        "cat_id": "166"
+    },
+    "99": {
+        "name": "Development Tools & Resources",
+        "href": "https://gbatemp.net/download/categories/development-tools-resources.167/add",
+        "cat_id": "167"
+    },
+    "100": {
+        "name": "ISO Patching",
+        "href": "https://gbatemp.net/download/categories/iso-patching.169/add",
+        "cat_id": "169"
+    },
+    "101": {
+        "name": "ISO Ripping",
+        "href": "https://gbatemp.net/download/categories/iso-ripping.170/add",
+        "cat_id": "170"
+    },
+    "102": {
+        "name": "ISO/DOL Management",
+        "href": "https://gbatemp.net/download/categories/iso-dol-management.171/add",
+        "cat_id": "171"
+    },
+    "103": {
+        "name": "Wiimote Tools",
+        "href": "https://gbatemp.net/download/categories/wiimote-tools.168/add",
+        "cat_id": "168"
+    },
+    "104": {
+        "name": "Applications",
+        "href": "https://gbatemp.net/download/categories/applications.140/add",
+        "cat_id": "140"
+    },
+    "105": {
+        "name": "Emulators for GBA",
+        "href": "https://gbatemp.net/download/categories/emulators-for-gba.141/add",
+        "cat_id": "141"
+    },
+    "106": {
+        "name": "Games",
+        "href": "https://gbatemp.net/download/categories/games.139/add",
+        "cat_id": "139"
+    },
+    "107": {
+        "name": "Other",
+        "href": "https://gbatemp.net/download/categories/other.1636/add",
+        "cat_id": "1636"
+    },
+    "108": {
+        "name": "EFA Series",
+        "href": "https://gbatemp.net/download/categories/efa-series.146/add",
+        "cat_id": "146"
+    },
+    "109": {
+        "name": "EZ-Flash Series",
+        "href": "https://gbatemp.net/download/categories/ez-flash-series.144/add",
+        "cat_id": "144"
+    },
+    "110": {
+        "name": "M3 Series",
+        "href": "https://gbatemp.net/download/categories/m3-series.145/add",
+        "cat_id": "145"
+    },
+    "111": {
+        "name": "Other carts",
+        "href": "https://gbatemp.net/download/categories/other-carts.147/add",
+        "cat_id": "147"
+    },
+    "112": {
+        "name": "Supercard Series",
+        "href": "https://gbatemp.net/download/categories/supercard-series.143/add",
+        "cat_id": "143"
+    },
+    "113": {
+        "name": "X-Rom Series",
+        "href": "https://gbatemp.net/download/categories/x-rom-series.142/add",
+        "cat_id": "142"
+    },
+    "114": {
+        "name": "Content, map & level edits",
+        "href": "https://gbatemp.net/download/categories/content-map-level-edits.151/add",
+        "cat_id": "151"
+    },
+    "115": {
+        "name": "Game Fixes",
+        "href": "https://gbatemp.net/download/categories/game-fixes.152/add",
+        "cat_id": "152"
+    },
+    "116": {
+        "name": "Other ROM hacks",
+        "href": "https://gbatemp.net/download/categories/other-rom-hacks.150/add",
+        "cat_id": "150"
+    },
+    "117": {
+        "name": "Trainers",
+        "href": "https://gbatemp.net/download/categories/trainers.149/add",
+        "cat_id": "149"
+    },
+    "118": {
+        "name": "Translations",
+        "href": "https://gbatemp.net/download/categories/translations.148/add",
+        "cat_id": "148"
+    },
+    "119": {
+        "name": "Game Saves",
+        "href": "https://gbatemp.net/download/categories/game-saves.134/add",
+        "cat_id": "134"
+    },
+    "120": {
+        "name": "Skins",
+        "href": "https://gbatemp.net/download/categories/skins.135/add",
+        "cat_id": "135"
+    },
+    "121": {
+        "name": "Development Tools & Resources",
+        "href": "https://gbatemp.net/download/categories/development-tools-resources.153/add",
+        "cat_id": "153"
+    },
+    "122": {
+        "name": "Other Tools",
+        "href": "https://gbatemp.net/download/categories/other-tools.156/add",
+        "cat_id": "156"
+    },
+    "123": {
+        "name": "ROM Managers & Renamers",
+        "href": "https://gbatemp.net/download/categories/rom-managers-renamers.154/add",
+        "cat_id": "154"
+    },
+    "124": {
+        "name": "ROM Patchers & Header info",
+        "href": "https://gbatemp.net/download/categories/rom-patchers-header-info.155/add",
+        "cat_id": "155"
+    },
+    "125": {
+        "name": "GBA Emulators",
+        "href": "https://gbatemp.net/download/categories/gba-emulators.157/add",
+        "cat_id": "157"
+    },
+    "126": {
+        "name": "Other GBA Files",
+        "href": "https://gbatemp.net/download/categories/other-gba-files.138/add",
+        "cat_id": "138"
+    },
+    "127": {
+        "name": "GamePad",
+        "href": "https://gbatemp.net/download/categories/gamepad.1083/add",
+        "cat_id": "1083"
+    },
+    "128": {
+        "name": "Memory card",
+        "href": "https://gbatemp.net/download/categories/memory-card.1084/add",
+        "cat_id": "1084"
+    },
+    "129": {
+        "name": "Other devices",
+        "href": "https://gbatemp.net/download/categories/other-devices.1085/add",
+        "cat_id": "1085"
+    },
+    "130": {
+        "name": "Emulators for Xbox 360",
+        "href": "https://gbatemp.net/download/categories/emulators-for-xbox-360.1081/add",
+        "cat_id": "1081"
+    },
+    "131": {
+        "name": "Media Center Extenders",
+        "href": "https://gbatemp.net/download/categories/media-center-extenders.1082/add",
+        "cat_id": "1082"
+    },
+    "132": {
+        "name": "File Exploring & Signing",
+        "href": "https://gbatemp.net/download/categories/file-exploring-signing.1103/add",
+        "cat_id": "1103"
+    },
+    "133": {
+        "name": "Flash Related Tools",
+        "href": "https://gbatemp.net/download/categories/flash-related-tools.1102/add",
+        "cat_id": "1102"
+    },
+    "134": {
+        "name": "HDD Exploring tools",
+        "href": "https://gbatemp.net/download/categories/hdd-exploring-tools.1098/add",
+        "cat_id": "1098"
+    },
+    "135": {
+        "name": "HDD Formatting",
+        "href": "https://gbatemp.net/download/categories/hdd-formatting.1099/add",
+        "cat_id": "1099"
+    },
+    "136": {
+        "name": "Other HDD Tools",
+        "href": "https://gbatemp.net/download/categories/other-hdd-tools.1100/add",
+        "cat_id": "1100"
+    },
+    "137": {
+        "name": "File Reading & Extraction",
+        "href": "https://gbatemp.net/download/categories/file-reading-extraction.1094/add",
+        "cat_id": "1094"
+    },
+    "138": {
+        "name": "Integrity Check",
+        "href": "https://gbatemp.net/download/categories/integrity-check.1092/add",
+        "cat_id": "1092"
+    },
+    "139": {
+        "name": "ISO patching & manipulation",
+        "href": "https://gbatemp.net/download/categories/iso-patching-manipulation.1093/add",
+        "cat_id": "1093"
+    },
+    "140": {
+        "name": "ISO ripping tools",
+        "href": "https://gbatemp.net/download/categories/iso-ripping-tools.1091/add",
+        "cat_id": "1091"
+    },
+    "141": {
+        "name": "Multipurpose ISO tools",
+        "href": "https://gbatemp.net/download/categories/multipurpose-iso-tools.1096/add",
+        "cat_id": "1096"
+    },
+    "142": {
+        "name": "Other ISO tools",
+        "href": "https://gbatemp.net/download/categories/other-iso-tools.1095/add",
+        "cat_id": "1095"
+    },
+    "143": {
+        "name": "Media Encoders & Transcoders",
+        "href": "https://gbatemp.net/download/categories/media-encoders-transcoders.1087/add",
+        "cat_id": "1087"
+    },
+    "144": {
+        "name": "Other multimedia tools",
+        "href": "https://gbatemp.net/download/categories/other-multimedia-tools.1089/add",
+        "cat_id": "1089"
+    },
+    "145": {
+        "name": "Streaming Tools",
+        "href": "https://gbatemp.net/download/categories/streaming-tools.1088/add",
+        "cat_id": "1088"
+    },
+    "146": {
+        "name": "Other Files",
+        "href": "https://gbatemp.net/download/categories/other-files.1107/add",
+        "cat_id": "1107"
+    },
+    "147": {
+        "name": "Save Files",
+        "href": "https://gbatemp.net/download/categories/save-files.1105/add",
+        "cat_id": "1105"
+    },
+    "148": {
+        "name": "Savegame Related Tools",
+        "href": "https://gbatemp.net/download/categories/savegame-related-tools.1106/add",
+        "cat_id": "1106"
+    },
+    "149": {
+        "name": "Title Updates",
+        "href": "https://gbatemp.net/download/categories/title-updates.1578/add",
+        "cat_id": "1578"
+    },
+    "150": {
+        "name": "Emulators",
+        "href": "https://gbatemp.net/download/categories/emulators.1676/add",
+        "cat_id": "1676"
+    },
+    "151": {
+        "name": "Firmware & Softmods",
+        "href": "https://gbatemp.net/download/categories/firmware-softmods.1677/add",
+        "cat_id": "1677"
+    },
+    "152": {
+        "name": "Game saves",
+        "href": "https://gbatemp.net/download/categories/game-saves.1678/add",
+        "cat_id": "1678"
+    },
+    "153": {
+        "name": "Homebrew",
+        "href": "https://gbatemp.net/download/categories/homebrew.1679/add",
+        "cat_id": "1679"
+    },
+    "154": {
+        "name": "Themes & Customization",
+        "href": "https://gbatemp.net/download/categories/themes-customization.1680/add",
+        "cat_id": "1680"
+    },
+    "155": {
+        "name": "Tools & Utilities",
+        "href": "https://gbatemp.net/download/categories/tools-utilities.1681/add",
+        "cat_id": "1681"
+    },
+    "156": {
+        "name": "Other Files",
+        "href": "https://gbatemp.net/download/categories/other-files.1682/add",
+        "cat_id": "1682"
+    },
+    "157": {
+        "name": "Custom Shells",
+        "href": "https://gbatemp.net/download/categories/custom-shells.1124/add",
+        "cat_id": "1124"
+    },
+    "158": {
+        "name": "Other Customization Files & Tools",
+        "href": "https://gbatemp.net/download/categories/other-customization-files-tools.1125/add",
+        "cat_id": "1125"
+    },
+    "159": {
+        "name": "XMB Themes",
+        "href": "https://gbatemp.net/download/categories/xmb-themes.1123/add",
+        "cat_id": "1123"
+    },
+    "160": {
+        "name": "Emulation",
+        "href": "https://gbatemp.net/download/categories/emulation.1593/add",
+        "cat_id": "1593"
+    },
+    "161": {
+        "name": "Custom Firmware Plugins",
+        "href": "https://gbatemp.net/download/categories/custom-firmware-plugins.1517/add",
+        "cat_id": "1517"
+    },
+    "162": {
+        "name": "Custom Firmwares",
+        "href": "https://gbatemp.net/download/categories/custom-firmwares.1120/add",
+        "cat_id": "1120"
+    },
+    "163": {
+        "name": "Downgraders",
+        "href": "https://gbatemp.net/download/categories/downgraders.1119/add",
+        "cat_id": "1119"
+    },
+    "164": {
+        "name": "Firmware Tools",
+        "href": "https://gbatemp.net/download/categories/firmware-tools.1122/add",
+        "cat_id": "1122"
+    },
+    "165": {
+        "name": "Applications",
+        "href": "https://gbatemp.net/download/categories/applications.1115/add",
+        "cat_id": "1115"
+    },
+    "166": {
+        "name": "Demos",
+        "href": "https://gbatemp.net/download/categories/demos.1118/add",
+        "cat_id": "1118"
+    },
+    "167": {
+        "name": "Emulators",
+        "href": "https://gbatemp.net/download/categories/emulators.1116/add",
+        "cat_id": "1116"
+    },
+    "168": {
+        "name": "Games",
+        "href": "https://gbatemp.net/download/categories/games.1114/add",
+        "cat_id": "1114"
+    },
+    "169": {
+        "name": "Multimedia",
+        "href": "https://gbatemp.net/download/categories/multimedia.1117/add",
+        "cat_id": "1117"
+    },
+    "170": {
+        "name": "Other Files",
+        "href": "https://gbatemp.net/download/categories/other-files.1113/add",
+        "cat_id": "1113"
+    },
+    "171": {
+        "name": "Save Files",
+        "href": "https://gbatemp.net/download/categories/save-files.1126/add",
+        "cat_id": "1126"
+    },
+    "172": {
+        "name": "Save Tools",
+        "href": "https://gbatemp.net/download/categories/save-tools.1127/add",
+        "cat_id": "1127"
+    },
+    "173": {
+        "name": "Development Tools & Resources",
+        "href": "https://gbatemp.net/download/categories/development-tools-resources.1128/add",
+        "cat_id": "1128"
+    },
+    "174": {
+        "name": "ISO Tools",
+        "href": "https://gbatemp.net/download/categories/iso-tools.1129/add",
+        "cat_id": "1129"
+    },
+    "175": {
+        "name": "Other Tools & Utilities",
+        "href": "https://gbatemp.net/download/categories/other-tools-utilities.1130/add",
+        "cat_id": "1130"
+    },
+    "176": {
+        "name": "Firmware & Softmods",
+        "href": "https://gbatemp.net/download/categories/firmware-softmods.1694/add",
+        "cat_id": "1694"
+    },
+    "177": {
+        "name": "Game saves",
+        "href": "https://gbatemp.net/download/categories/game-saves.1695/add",
+        "cat_id": "1695"
+    },
+    "178": {
+        "name": "Homebrew",
+        "href": "https://gbatemp.net/download/categories/homebrew.1696/add",
+        "cat_id": "1696"
+    },
+    "179": {
+        "name": "Tools & Utilities",
+        "href": "https://gbatemp.net/download/categories/tools-utilities.1697/add",
+        "cat_id": "1697"
+    },
+    "180": {
+        "name": "Other Files",
+        "href": "https://gbatemp.net/download/categories/other-files.1698/add",
+        "cat_id": "1698"
+    },
+    "181": {
+        "name": "Emulators",
+        "href": "https://gbatemp.net/download/categories/emulators.1684/add",
+        "cat_id": "1684"
+    },
+    "182": {
+        "name": "Firmware & Softmods",
+        "href": "https://gbatemp.net/download/categories/firmware-softmods.1685/add",
+        "cat_id": "1685"
+    },
+    "183": {
+        "name": "Game saves",
+        "href": "https://gbatemp.net/download/categories/game-saves.1686/add",
+        "cat_id": "1686"
+    },
+    "184": {
+        "name": "Homebrew",
+        "href": "https://gbatemp.net/download/categories/homebrew.1687/add",
+        "cat_id": "1687"
+    },
+    "185": {
+        "name": "Themes & Customization",
+        "href": "https://gbatemp.net/download/categories/themes-customization.1688/add",
+        "cat_id": "1688"
+    },
+    "186": {
+        "name": "Tools & Utilities",
+        "href": "https://gbatemp.net/download/categories/tools-utilities.1689/add",
+        "cat_id": "1689"
+    },
+    "187": {
+        "name": "Other Files",
+        "href": "https://gbatemp.net/download/categories/other-files.1690/add",
+        "cat_id": "1690"
+    },
+    "188": {
+        "name": "Customization",
+        "href": "https://gbatemp.net/download/categories/customization.1535/add",
+        "cat_id": "1535"
+    },
+    "189": {
+        "name": "Drivers",
+        "href": "https://gbatemp.net/download/categories/drivers.1133/add",
+        "cat_id": "1133"
+    },
+    "190": {
+        "name": "Applications",
+        "href": "https://gbatemp.net/download/categories/applications.1587/add",
+        "cat_id": "1587"
+    },
+    "191": {
+        "name": "Demos",
+        "href": "https://gbatemp.net/download/categories/demos.1590/add",
+        "cat_id": "1590"
+    },
+    "192": {
+        "name": "Emulators",
+        "href": "https://gbatemp.net/download/categories/emulators.1588/add",
+        "cat_id": "1588"
+    },
+    "193": {
+        "name": "Games",
+        "href": "https://gbatemp.net/download/categories/games.1589/add",
+        "cat_id": "1589"
+    },
+    "194": {
+        "name": "Multimedia",
+        "href": "https://gbatemp.net/download/categories/multimedia.1591/add",
+        "cat_id": "1591"
+    },
+    "195": {
+        "name": "Other",
+        "href": "https://gbatemp.net/download/categories/other.1592/add",
+        "cat_id": "1592"
+    },
+    "196": {
+        "name": "Linux OS Files & Tools",
+        "href": "https://gbatemp.net/download/categories/linux-os-files-tools.1131/add",
+        "cat_id": "1131"
+    },
+    "197": {
+        "name": "Other Files",
+        "href": "https://gbatemp.net/download/categories/other-files.1163/add",
+        "cat_id": "1163"
+    },
+    "198": {
+        "name": "Development Tools & Resources",
+        "href": "https://gbatemp.net/download/categories/development-tools-resources.1137/add",
+        "cat_id": "1137"
+    },
+    "199": {
+        "name": "Flash Dump & Modchip Tools",
+        "href": "https://gbatemp.net/download/categories/flash-dump-modchip-tools.1136/add",
+        "cat_id": "1136"
+    },
+    "200": {
+        "name": "ISO Tools",
+        "href": "https://gbatemp.net/download/categories/iso-tools.1135/add",
+        "cat_id": "1135"
+    },
+    "201": {
+        "name": "Other Tools & Utilities",
+        "href": "https://gbatemp.net/download/categories/other-tools-utilities.1138/add",
+        "cat_id": "1138"
+    },
+    "202": {
+        "name": "Development",
+        "href": "https://gbatemp.net/download/categories/development.1539/add",
+        "cat_id": "1539"
+    },
+    "203": {
+        "name": "Files & Sync",
+        "href": "https://gbatemp.net/download/categories/files-sync.1540/add",
+        "cat_id": "1540"
+    },
+    "204": {
+        "name": "Games & Emulators",
+        "href": "https://gbatemp.net/download/categories/games-emulators.1542/add",
+        "cat_id": "1542"
+    },
+    "205": {
+        "name": "Hacking",
+        "href": "https://gbatemp.net/download/categories/hacking.1638/add",
+        "cat_id": "1638"
+    },
+    "206": {
+        "name": "Internet",
+        "href": "https://gbatemp.net/download/categories/internet.1543/add",
+        "cat_id": "1543"
+    },
+    "207": {
+        "name": "Maps & GPS",
+        "href": "https://gbatemp.net/download/categories/maps-gps.1544/add",
+        "cat_id": "1544"
+    },
+    "208": {
+        "name": "Multimedia",
+        "href": "https://gbatemp.net/download/categories/multimedia.1545/add",
+        "cat_id": "1545"
+    },
+    "209": {
+        "name": "System updates",
+        "href": "https://gbatemp.net/download/categories/system-updates.1541/add",
+        "cat_id": "1541"
+    },
+    "210": {
+        "name": "Tools & utilities",
+        "href": "https://gbatemp.net/download/categories/tools-utilities.1547/add",
+        "cat_id": "1547"
+    },
+    "211": {
+        "name": "Others",
+        "href": "https://gbatemp.net/download/categories/others.1546/add",
+        "cat_id": "1546"
+    },
+    "212": {
+        "name": "Action Adventure",
+        "href": "https://gbatemp.net/download/categories/action-adventure.1178/add",
+        "cat_id": "1178"
+    },
+    "213": {
+        "name": "Adventure",
+        "href": "https://gbatemp.net/download/categories/adventure.1179/add",
+        "cat_id": "1179"
+    },
+    "214": {
+        "name": "Arcade",
+        "href": "https://gbatemp.net/download/categories/arcade.1177/add",
+        "cat_id": "1177"
+    },
+    "215": {
+        "name": "Cards",
+        "href": "https://gbatemp.net/download/categories/cards.1184/add",
+        "cat_id": "1184"
+    },
+    "216": {
+        "name": "Emulators",
+        "href": "https://gbatemp.net/download/categories/emulators.1185/add",
+        "cat_id": "1185"
+    },
+    "217": {
+        "name": "Other games",
+        "href": "https://gbatemp.net/download/categories/other-games.1188/add",
+        "cat_id": "1188"
+    },
+    "218": {
+        "name": "Puzzle",
+        "href": "https://gbatemp.net/download/categories/puzzle.1186/add",
+        "cat_id": "1186"
+    },
+    "219": {
+        "name": "Racing",
+        "href": "https://gbatemp.net/download/categories/racing.1180/add",
+        "cat_id": "1180"
+    },
+    "220": {
+        "name": "RPG",
+        "href": "https://gbatemp.net/download/categories/rpg.1181/add",
+        "cat_id": "1181"
+    },
+    "221": {
+        "name": "Sports",
+        "href": "https://gbatemp.net/download/categories/sports.1182/add",
+        "cat_id": "1182"
+    },
+    "222": {
+        "name": "Strategy",
+        "href": "https://gbatemp.net/download/categories/strategy.1183/add",
+        "cat_id": "1183"
+    },
+    "223": {
+        "name": "Word",
+        "href": "https://gbatemp.net/download/categories/word.1187/add",
+        "cat_id": "1187"
+    },
+    "224": {
+        "name": "Hacking & Jailbreaking",
+        "href": "https://gbatemp.net/download/categories/hacking-jailbreaking.1176/add",
+        "cat_id": "1176"
+    },
+    "225": {
+        "name": "E-mail, RSS & Newsgroups",
+        "href": "https://gbatemp.net/download/categories/e-mail-rss-newsgroups.1191/add",
+        "cat_id": "1191"
+    },
+    "226": {
+        "name": "File download & P2P",
+        "href": "https://gbatemp.net/download/categories/file-download-p2p.1192/add",
+        "cat_id": "1192"
+    },
+    "227": {
+        "name": "Instant Messenging",
+        "href": "https://gbatemp.net/download/categories/instant-messenging.1190/add",
+        "cat_id": "1190"
+    },
+    "228": {
+        "name": "Other Internet tools",
+        "href": "https://gbatemp.net/download/categories/other-internet-tools.1194/add",
+        "cat_id": "1194"
+    },
+    "229": {
+        "name": "Social networking",
+        "href": "https://gbatemp.net/download/categories/social-networking.1193/add",
+        "cat_id": "1193"
+    },
+    "230": {
+        "name": "Web browsers & tools",
+        "href": "https://gbatemp.net/download/categories/web-browsers-tools.1189/add",
+        "cat_id": "1189"
+    },
+    "231": {
+        "name": "Document Viewers & Editors",
+        "href": "https://gbatemp.net/download/categories/document-viewers-editors.1207/add",
+        "cat_id": "1207"
+    },
+    "232": {
+        "name": "eBooks & Comics",
+        "href": "https://gbatemp.net/download/categories/ebooks-comics.1208/add",
+        "cat_id": "1208"
+    },
+    "233": {
+        "name": "Graphism & Photo",
+        "href": "https://gbatemp.net/download/categories/graphism-photo.1204/add",
+        "cat_id": "1204"
+    },
+    "234": {
+        "name": "Media Players",
+        "href": "https://gbatemp.net/download/categories/media-players.1203/add",
+        "cat_id": "1203"
+    },
+    "235": {
+        "name": "Music & Audio Editing",
+        "href": "https://gbatemp.net/download/categories/music-audio-editing.1205/add",
+        "cat_id": "1205"
+    },
+    "236": {
+        "name": "Other multimedia software",
+        "href": "https://gbatemp.net/download/categories/other-multimedia-software.1209/add",
+        "cat_id": "1209"
+    },
+    "237": {
+        "name": "Podcasting",
+        "href": "https://gbatemp.net/download/categories/podcasting.1206/add",
+        "cat_id": "1206"
+    },
+    "238": {
+        "name": "File management & exploring",
+        "href": "https://gbatemp.net/download/categories/file-management-exploring.1211/add",
+        "cat_id": "1211"
+    },
+    "239": {
+        "name": "iTunes related",
+        "href": "https://gbatemp.net/download/categories/itunes-related.1210/add",
+        "cat_id": "1210"
+    },
+    "240": {
+        "name": "Multimedia Tools",
+        "href": "https://gbatemp.net/download/categories/multimedia-tools.1212/add",
+        "cat_id": "1212"
+    },
+    "241": {
+        "name": "Other PC Tools",
+        "href": "https://gbatemp.net/download/categories/other-pc-tools.1214/add",
+        "cat_id": "1214"
+    },
+    "242": {
+        "name": "Remote Access & Synchronisation",
+        "href": "https://gbatemp.net/download/categories/remote-access-synchronisation.1213/add",
+        "cat_id": "1213"
+    },
+    "243": {
+        "name": "Early iDevice Models",
+        "href": "https://gbatemp.net/download/categories/early-idevice-models.1582/add",
+        "cat_id": "1582"
+    },
+    "244": {
+        "name": "iPad",
+        "href": "https://gbatemp.net/download/categories/ipad.1584/add",
+        "cat_id": "1584"
+    },
+    "245": {
+        "name": "iPhone 4 & iPod Touch 4",
+        "href": "https://gbatemp.net/download/categories/iphone-4-ipod-touch-4.1583/add",
+        "cat_id": "1583"
+    },
+    "246": {
+        "name": "Other iDevices",
+        "href": "https://gbatemp.net/download/categories/other-idevices.1585/add",
+        "cat_id": "1585"
+    },
+    "247": {
+        "name": "Development Tools & Resources",
+        "href": "https://gbatemp.net/download/categories/development-tools-resources.1200/add",
+        "cat_id": "1200"
+    },
+    "248": {
+        "name": "Disk & File Management",
+        "href": "https://gbatemp.net/download/categories/disk-file-management.1195/add",
+        "cat_id": "1195"
+    },
+    "249": {
+        "name": "Education & Learning",
+        "href": "https://gbatemp.net/download/categories/education-learning.1198/add",
+        "cat_id": "1198"
+    },
+    "250": {
+        "name": "GPS",
+        "href": "https://gbatemp.net/download/categories/gps.1197/add",
+        "cat_id": "1197"
+    },
+    "251": {
+        "name": "Other utilities",
+        "href": "https://gbatemp.net/download/categories/other-utilities.1202/add",
+        "cat_id": "1202"
+    },
+    "252": {
+        "name": "Personal use",
+        "href": "https://gbatemp.net/download/categories/personal-use.1201/add",
+        "cat_id": "1201"
+    },
+    "253": {
+        "name": "Phone & SMS",
+        "href": "https://gbatemp.net/download/categories/phone-sms.1199/add",
+        "cat_id": "1199"
+    },
+    "254": {
+        "name": "Theming & Customization",
+        "href": "https://gbatemp.net/download/categories/theming-customization.1196/add",
+        "cat_id": "1196"
+    },
+    "255": {
+        "name": "Anti-virus and Security",
+        "href": "https://gbatemp.net/download/categories/anti-virus-and-security.1598/add",
+        "cat_id": "1598"
+    },
+    "256": {
+        "name": "Downloading & File Management",
+        "href": "https://gbatemp.net/download/categories/downloading-file-management.1600/add",
+        "cat_id": "1600"
+    },
+    "257": {
+        "name": "Emulators and simulators",
+        "href": "https://gbatemp.net/download/categories/emulators-and-simulators.1602/add",
+        "cat_id": "1602"
+    },
+    "258": {
+        "name": "Entertainment & Home",
+        "href": "https://gbatemp.net/download/categories/entertainment-home.1601/add",
+        "cat_id": "1601"
+    },
+    "259": {
+        "name": "Graphics & Pictures",
+        "href": "https://gbatemp.net/download/categories/graphics-pictures.1603/add",
+        "cat_id": "1603"
+    },
+    "260": {
+        "name": "Internet & Communication",
+        "href": "https://gbatemp.net/download/categories/internet-communication.1608/add",
+        "cat_id": "1608"
+    },
+    "261": {
+        "name": "Multimedia Software",
+        "href": "https://gbatemp.net/download/categories/multimedia-software.1599/add",
+        "cat_id": "1599"
+    },
+    "262": {
+        "name": "Office Software",
+        "href": "https://gbatemp.net/download/categories/office-software.1604/add",
+        "cat_id": "1604"
+    },
+    "263": {
+        "name": "Other Software",
+        "href": "https://gbatemp.net/download/categories/other-software.1609/add",
+        "cat_id": "1609"
+    },
+    "264": {
+        "name": "Programming",
+        "href": "https://gbatemp.net/download/categories/programming.1605/add",
+        "cat_id": "1605"
+    },
+    "265": {
+        "name": "System Tools & Customization",
+        "href": "https://gbatemp.net/download/categories/system-tools-customization.1606/add",
+        "cat_id": "1606"
+    },
+    "266": {
+        "name": "Linux Libraries and System Files",
+        "href": "https://gbatemp.net/download/categories/linux-libraries-and-system-files.1628/add",
+        "cat_id": "1628"
+    },
+    "267": {
+        "name": "Windows DLL and Essential Files",
+        "href": "https://gbatemp.net/download/categories/windows-dll-and-essential-files.1627/add",
+        "cat_id": "1627"
+    },
+    "268": {
+        "name": "Drivers for Linux",
+        "href": "https://gbatemp.net/download/categories/drivers-for-linux.1632/add",
+        "cat_id": "1632"
+    },
+    "269": {
+        "name": "Drivers for MacOS",
+        "href": "https://gbatemp.net/download/categories/drivers-for-macos.1631/add",
+        "cat_id": "1631"
+    },
+    "270": {
+        "name": "Drivers for Other Systems",
+        "href": "https://gbatemp.net/download/categories/drivers-for-other-systems.1633/add",
+        "cat_id": "1633"
+    },
+    "271": {
+        "name": "Drivers for Windows",
+        "href": "https://gbatemp.net/download/categories/drivers-for-windows.1630/add",
+        "cat_id": "1630"
+    },
+    "272": {
+        "name": "Action",
+        "href": "https://gbatemp.net/download/categories/action.1612/add",
+        "cat_id": "1612"
+    },
+    "273": {
+        "name": "Adventure",
+        "href": "https://gbatemp.net/download/categories/adventure.1611/add",
+        "cat_id": "1611"
+    },
+    "274": {
+        "name": "Arcade",
+        "href": "https://gbatemp.net/download/categories/arcade.1613/add",
+        "cat_id": "1613"
+    },
+    "275": {
+        "name": "FPS",
+        "href": "https://gbatemp.net/download/categories/fps.1614/add",
+        "cat_id": "1614"
+    },
+    "276": {
+        "name": "Logic",
+        "href": "https://gbatemp.net/download/categories/logic.1615/add",
+        "cat_id": "1615"
+    },
+    "277": {
+        "name": "Other",
+        "href": "https://gbatemp.net/download/categories/other.1621/add",
+        "cat_id": "1621"
+    },
+    "278": {
+        "name": "Platform",
+        "href": "https://gbatemp.net/download/categories/platform.1634/add",
+        "cat_id": "1634"
+    },
+    "279": {
+        "name": "Racing",
+        "href": "https://gbatemp.net/download/categories/racing.1616/add",
+        "cat_id": "1616"
+    },
+    "280": {
+        "name": "RPG",
+        "href": "https://gbatemp.net/download/categories/rpg.1617/add",
+        "cat_id": "1617"
+    },
+    "281": {
+        "name": "Simulation",
+        "href": "https://gbatemp.net/download/categories/simulation.1619/add",
+        "cat_id": "1619"
+    },
+    "282": {
+        "name": "Sports",
+        "href": "https://gbatemp.net/download/categories/sports.1618/add",
+        "cat_id": "1618"
+    },
+    "283": {
+        "name": "Strategy",
+        "href": "https://gbatemp.net/download/categories/strategy.1620/add",
+        "cat_id": "1620"
+    },
+    "284": {
+        "name": "Linux",
+        "href": "https://gbatemp.net/download/categories/linux.1624/add",
+        "cat_id": "1624"
+    },
+    "285": {
+        "name": "Other Systems",
+        "href": "https://gbatemp.net/download/categories/other-systems.1625/add",
+        "cat_id": "1625"
+    },
+    "286": {
+        "name": "System Rescue",
+        "href": "https://gbatemp.net/download/categories/system-rescue.1623/add",
+        "cat_id": "1623"
+    },
+    "287": {
+        "name": "Other Files",
+        "href": "https://gbatemp.net/download/categories/other-files.1635/add",
+        "cat_id": "1635"
+    },
+    "288": {
+        "name": "Development",
+        "href": "https://gbatemp.net/download/categories/development.1327/add",
+        "cat_id": "1327"
+    },
+    "289": {
+        "name": "Files & Synchronisation",
+        "href": "https://gbatemp.net/download/categories/files-synchronisation.1323/add",
+        "cat_id": "1323"
+    },
+    "290": {
+        "name": "Firmware & Software updates",
+        "href": "https://gbatemp.net/download/categories/firmware-software-updates.1325/add",
+        "cat_id": "1325"
+    },
+    "291": {
+        "name": "Games & Emulators",
+        "href": "https://gbatemp.net/download/categories/games-emulators.1320/add",
+        "cat_id": "1320"
+    },
+    "292": {
+        "name": "Internet",
+        "href": "https://gbatemp.net/download/categories/internet.1322/add",
+        "cat_id": "1322"
+    },
+    "293": {
+        "name": "Maps, GPS & Navigation",
+        "href": "https://gbatemp.net/download/categories/maps-gps-navigation.1324/add",
+        "cat_id": "1324"
+    },
+    "294": {
+        "name": "Multimedia",
+        "href": "https://gbatemp.net/download/categories/multimedia.1321/add",
+        "cat_id": "1321"
+    },
+    "295": {
+        "name": "Other Files",
+        "href": "https://gbatemp.net/download/categories/other-files.1328/add",
+        "cat_id": "1328"
+    },
+    "296": {
+        "name": "Tools & utilities",
+        "href": "https://gbatemp.net/download/categories/tools-utilities.1326/add",
+        "cat_id": "1326"
+    },
+    "297": {
+        "name": "Development",
+        "href": "https://gbatemp.net/download/categories/development.1318/add",
+        "cat_id": "1318"
+    },
+    "298": {
+        "name": "Files & Synchronisation",
+        "href": "https://gbatemp.net/download/categories/files-synchronisation.1314/add",
+        "cat_id": "1314"
+    },
+    "299": {
+        "name": "Firmware & Software updates",
+        "href": "https://gbatemp.net/download/categories/firmware-software-updates.1316/add",
+        "cat_id": "1316"
+    },
+    "300": {
+        "name": "Games & Emulators",
+        "href": "https://gbatemp.net/download/categories/games-emulators.1311/add",
+        "cat_id": "1311"
+    },
+    "301": {
+        "name": "Internet",
+        "href": "https://gbatemp.net/download/categories/internet.1313/add",
+        "cat_id": "1313"
+    },
+    "302": {
+        "name": "Maps, GPS & Navigation",
+        "href": "https://gbatemp.net/download/categories/maps-gps-navigation.1315/add",
+        "cat_id": "1315"
+    },
+    "303": {
+        "name": "Multimedia",
+        "href": "https://gbatemp.net/download/categories/multimedia.1312/add",
+        "cat_id": "1312"
+    },
+    "304": {
+        "name": "Other Files",
+        "href": "https://gbatemp.net/download/categories/other-files.1319/add",
+        "cat_id": "1319"
+    },
+    "305": {
+        "name": "Tools & utilities",
+        "href": "https://gbatemp.net/download/categories/tools-utilities.1317/add",
+        "cat_id": "1317"
+    },
+    "306": {
+        "name": "Development",
+        "href": "https://gbatemp.net/download/categories/development.1309/add",
+        "cat_id": "1309"
+    },
+    "307": {
+        "name": "Files & Synchronisation",
+        "href": "https://gbatemp.net/download/categories/files-synchronisation.1305/add",
+        "cat_id": "1305"
+    },
+    "308": {
+        "name": "Firmware & Software updates",
+        "href": "https://gbatemp.net/download/categories/firmware-software-updates.1307/add",
+        "cat_id": "1307"
+    },
+    "309": {
+        "name": "Games & Emulators",
+        "href": "https://gbatemp.net/download/categories/games-emulators.1302/add",
+        "cat_id": "1302"
+    },
+    "310": {
+        "name": "Internet",
+        "href": "https://gbatemp.net/download/categories/internet.1304/add",
+        "cat_id": "1304"
+    },
+    "311": {
+        "name": "Maps, GPS & Navigation",
+        "href": "https://gbatemp.net/download/categories/maps-gps-navigation.1306/add",
+        "cat_id": "1306"
+    },
+    "312": {
+        "name": "Multimedia",
+        "href": "https://gbatemp.net/download/categories/multimedia.1303/add",
+        "cat_id": "1303"
+    },
+    "313": {
+        "name": "Other Files",
+        "href": "https://gbatemp.net/download/categories/other-files.1310/add",
+        "cat_id": "1310"
+    },
+    "314": {
+        "name": "Tools & utilities",
+        "href": "https://gbatemp.net/download/categories/tools-utilities.1308/add",
+        "cat_id": "1308"
+    },
+    "315": {
+        "name": "Development",
+        "href": "https://gbatemp.net/download/categories/development.1264/add",
+        "cat_id": "1264"
+    },
+    "316": {
+        "name": "Files & Synchronisation",
+        "href": "https://gbatemp.net/download/categories/files-synchronisation.1260/add",
+        "cat_id": "1260"
+    },
+    "317": {
+        "name": "Firmware & Software updates",
+        "href": "https://gbatemp.net/download/categories/firmware-software-updates.1262/add",
+        "cat_id": "1262"
+    },
+    "318": {
+        "name": "Games & Emulators",
+        "href": "https://gbatemp.net/download/categories/games-emulators.1257/add",
+        "cat_id": "1257"
+    },
+    "319": {
+        "name": "Internet",
+        "href": "https://gbatemp.net/download/categories/internet.1259/add",
+        "cat_id": "1259"
+    },
+    "320": {
+        "name": "Maps, GPS & Navigation",
+        "href": "https://gbatemp.net/download/categories/maps-gps-navigation.1261/add",
+        "cat_id": "1261"
+    },
+    "321": {
+        "name": "Multimedia",
+        "href": "https://gbatemp.net/download/categories/multimedia.1258/add",
+        "cat_id": "1258"
+    },
+    "322": {
+        "name": "Other Files",
+        "href": "https://gbatemp.net/download/categories/other-files.1265/add",
+        "cat_id": "1265"
+    },
+    "323": {
+        "name": "Tools & utilities",
+        "href": "https://gbatemp.net/download/categories/tools-utilities.1263/add",
+        "cat_id": "1263"
+    },
+    "324": {
+        "name": "Development",
+        "href": "https://gbatemp.net/download/categories/development.1255/add",
+        "cat_id": "1255"
+    },
+    "325": {
+        "name": "Files & Synchronisation",
+        "href": "https://gbatemp.net/download/categories/files-synchronisation.1251/add",
+        "cat_id": "1251"
+    },
+    "326": {
+        "name": "Firmware & Software updates",
+        "href": "https://gbatemp.net/download/categories/firmware-software-updates.1253/add",
+        "cat_id": "1253"
+    },
+    "327": {
+        "name": "Games & Emulators",
+        "href": "https://gbatemp.net/download/categories/games-emulators.1248/add",
+        "cat_id": "1248"
+    },
+    "328": {
+        "name": "Internet",
+        "href": "https://gbatemp.net/download/categories/internet.1250/add",
+        "cat_id": "1250"
+    },
+    "329": {
+        "name": "Maps, GPS & Navigation",
+        "href": "https://gbatemp.net/download/categories/maps-gps-navigation.1252/add",
+        "cat_id": "1252"
+    },
+    "330": {
+        "name": "Multimedia",
+        "href": "https://gbatemp.net/download/categories/multimedia.1249/add",
+        "cat_id": "1249"
+    },
+    "331": {
+        "name": "Other Files",
+        "href": "https://gbatemp.net/download/categories/other-files.1256/add",
+        "cat_id": "1256"
+    },
+    "332": {
+        "name": "Tools & utilities",
+        "href": "https://gbatemp.net/download/categories/tools-utilities.1254/add",
+        "cat_id": "1254"
+    },
+    "333": {
+        "name": "Development",
+        "href": "https://gbatemp.net/download/categories/development.1300/add",
+        "cat_id": "1300"
+    },
+    "334": {
+        "name": "Files & Synchronisation",
+        "href": "https://gbatemp.net/download/categories/files-synchronisation.1296/add",
+        "cat_id": "1296"
+    },
+    "335": {
+        "name": "Firmware & Software updates",
+        "href": "https://gbatemp.net/download/categories/firmware-software-updates.1298/add",
+        "cat_id": "1298"
+    },
+    "336": {
+        "name": "Games & Emulators",
+        "href": "https://gbatemp.net/download/categories/games-emulators.1293/add",
+        "cat_id": "1293"
+    },
+    "337": {
+        "name": "Internet",
+        "href": "https://gbatemp.net/download/categories/internet.1295/add",
+        "cat_id": "1295"
+    },
+    "338": {
+        "name": "Maps, GPS & Navigation",
+        "href": "https://gbatemp.net/download/categories/maps-gps-navigation.1297/add",
+        "cat_id": "1297"
+    },
+    "339": {
+        "name": "Multimedia",
+        "href": "https://gbatemp.net/download/categories/multimedia.1294/add",
+        "cat_id": "1294"
+    },
+    "340": {
+        "name": "Other Files",
+        "href": "https://gbatemp.net/download/categories/other-files.1301/add",
+        "cat_id": "1301"
+    },
+    "341": {
+        "name": "Tools & utilities",
+        "href": "https://gbatemp.net/download/categories/tools-utilities.1299/add",
+        "cat_id": "1299"
+    },
+    "342": {
+        "name": "Development",
+        "href": "https://gbatemp.net/download/categories/development.1237/add",
+        "cat_id": "1237"
+    },
+    "343": {
+        "name": "Files & Synchronisation",
+        "href": "https://gbatemp.net/download/categories/files-synchronisation.1233/add",
+        "cat_id": "1233"
+    },
+    "344": {
+        "name": "Firmware & Software updates",
+        "href": "https://gbatemp.net/download/categories/firmware-software-updates.1235/add",
+        "cat_id": "1235"
+    },
+    "345": {
+        "name": "Games & Emulators",
+        "href": "https://gbatemp.net/download/categories/games-emulators.1230/add",
+        "cat_id": "1230"
+    },
+    "346": {
+        "name": "Internet",
+        "href": "https://gbatemp.net/download/categories/internet.1232/add",
+        "cat_id": "1232"
+    },
+    "347": {
+        "name": "Maps, GPS & Navigation",
+        "href": "https://gbatemp.net/download/categories/maps-gps-navigation.1234/add",
+        "cat_id": "1234"
+    },
+    "348": {
+        "name": "Multimedia",
+        "href": "https://gbatemp.net/download/categories/multimedia.1231/add",
+        "cat_id": "1231"
+    },
+    "349": {
+        "name": "Other Files",
+        "href": "https://gbatemp.net/download/categories/other-files.1238/add",
+        "cat_id": "1238"
+    },
+    "350": {
+        "name": "Tools & utilities",
+        "href": "https://gbatemp.net/download/categories/tools-utilities.1236/add",
+        "cat_id": "1236"
+    },
+    "351": {
+        "name": "Development",
+        "href": "https://gbatemp.net/download/categories/development.1336/add",
+        "cat_id": "1336"
+    },
+    "352": {
+        "name": "Files & Synchronisation",
+        "href": "https://gbatemp.net/download/categories/files-synchronisation.1332/add",
+        "cat_id": "1332"
+    },
+    "353": {
+        "name": "Firmware & Software updates",
+        "href": "https://gbatemp.net/download/categories/firmware-software-updates.1334/add",
+        "cat_id": "1334"
+    },
+    "354": {
+        "name": "Games & Emulators",
+        "href": "https://gbatemp.net/download/categories/games-emulators.1329/add",
+        "cat_id": "1329"
+    },
+    "355": {
+        "name": "Internet",
+        "href": "https://gbatemp.net/download/categories/internet.1331/add",
+        "cat_id": "1331"
+    },
+    "356": {
+        "name": "Maps, GPS & Navigation",
+        "href": "https://gbatemp.net/download/categories/maps-gps-navigation.1333/add",
+        "cat_id": "1333"
+    },
+    "357": {
+        "name": "Multimedia",
+        "href": "https://gbatemp.net/download/categories/multimedia.1330/add",
+        "cat_id": "1330"
+    },
+    "358": {
+        "name": "Other Files",
+        "href": "https://gbatemp.net/download/categories/other-files.1337/add",
+        "cat_id": "1337"
+    },
+    "359": {
+        "name": "Tools & utilities",
+        "href": "https://gbatemp.net/download/categories/tools-utilities.1335/add",
+        "cat_id": "1335"
+    },
+    "360": {
+        "name": "Development",
+        "href": "https://gbatemp.net/download/categories/development.1273/add",
+        "cat_id": "1273"
+    },
+    "361": {
+        "name": "Files & Synchronisation",
+        "href": "https://gbatemp.net/download/categories/files-synchronisation.1269/add",
+        "cat_id": "1269"
+    },
+    "362": {
+        "name": "Firmware & Software updates",
+        "href": "https://gbatemp.net/download/categories/firmware-software-updates.1271/add",
+        "cat_id": "1271"
+    },
+    "363": {
+        "name": "Games & Emulators",
+        "href": "https://gbatemp.net/download/categories/games-emulators.1266/add",
+        "cat_id": "1266"
+    },
+    "364": {
+        "name": "Internet",
+        "href": "https://gbatemp.net/download/categories/internet.1268/add",
+        "cat_id": "1268"
+    },
+    "365": {
+        "name": "Maps, GPS & Navigation",
+        "href": "https://gbatemp.net/download/categories/maps-gps-navigation.1270/add",
+        "cat_id": "1270"
+    },
+    "366": {
+        "name": "Multimedia",
+        "href": "https://gbatemp.net/download/categories/multimedia.1267/add",
+        "cat_id": "1267"
+    },
+    "367": {
+        "name": "Other Files",
+        "href": "https://gbatemp.net/download/categories/other-files.1274/add",
+        "cat_id": "1274"
+    },
+    "368": {
+        "name": "Tools & utilities",
+        "href": "https://gbatemp.net/download/categories/tools-utilities.1272/add",
+        "cat_id": "1272"
+    },
+    "369": {
+        "name": "Development",
+        "href": "https://gbatemp.net/download/categories/development.1282/add",
+        "cat_id": "1282"
+    },
+    "370": {
+        "name": "Files & Synchronisation",
+        "href": "https://gbatemp.net/download/categories/files-synchronisation.1278/add",
+        "cat_id": "1278"
+    },
+    "371": {
+        "name": "Firmware & Software updates",
+        "href": "https://gbatemp.net/download/categories/firmware-software-updates.1280/add",
+        "cat_id": "1280"
+    },
+    "372": {
+        "name": "Games & Emulators",
+        "href": "https://gbatemp.net/download/categories/games-emulators.1275/add",
+        "cat_id": "1275"
+    },
+    "373": {
+        "name": "Internet",
+        "href": "https://gbatemp.net/download/categories/internet.1277/add",
+        "cat_id": "1277"
+    },
+    "374": {
+        "name": "Maps, GPS & Navigation",
+        "href": "https://gbatemp.net/download/categories/maps-gps-navigation.1279/add",
+        "cat_id": "1279"
+    },
+    "375": {
+        "name": "Multimedia",
+        "href": "https://gbatemp.net/download/categories/multimedia.1276/add",
+        "cat_id": "1276"
+    },
+    "376": {
+        "name": "Other Files",
+        "href": "https://gbatemp.net/download/categories/other-files.1283/add",
+        "cat_id": "1283"
+    },
+    "377": {
+        "name": "Tools & utilities",
+        "href": "https://gbatemp.net/download/categories/tools-utilities.1281/add",
+        "cat_id": "1281"
+    },
+    "378": {
+        "name": "Development",
+        "href": "https://gbatemp.net/download/categories/development.1246/add",
+        "cat_id": "1246"
+    },
+    "379": {
+        "name": "Files & Synchronisation",
+        "href": "https://gbatemp.net/download/categories/files-synchronisation.1242/add",
+        "cat_id": "1242"
+    },
+    "380": {
+        "name": "Firmware & Software updates",
+        "href": "https://gbatemp.net/download/categories/firmware-software-updates.1244/add",
+        "cat_id": "1244"
+    },
+    "381": {
+        "name": "Games & Emulators",
+        "href": "https://gbatemp.net/download/categories/games-emulators.1239/add",
+        "cat_id": "1239"
+    },
+    "382": {
+        "name": "Internet",
+        "href": "https://gbatemp.net/download/categories/internet.1241/add",
+        "cat_id": "1241"
+    },
+    "383": {
+        "name": "Maps, GPS & Navigation",
+        "href": "https://gbatemp.net/download/categories/maps-gps-navigation.1243/add",
+        "cat_id": "1243"
+    },
+    "384": {
+        "name": "Multimedia",
+        "href": "https://gbatemp.net/download/categories/multimedia.1240/add",
+        "cat_id": "1240"
+    },
+    "385": {
+        "name": "Other Files",
+        "href": "https://gbatemp.net/download/categories/other-files.1247/add",
+        "cat_id": "1247"
+    },
+    "386": {
+        "name": "Tools & utilities",
+        "href": "https://gbatemp.net/download/categories/tools-utilities.1245/add",
+        "cat_id": "1245"
+    },
+    "387": {
+        "name": "Development",
+        "href": "https://gbatemp.net/download/categories/development.1291/add",
+        "cat_id": "1291"
+    },
+    "388": {
+        "name": "Files & Synchronisation",
+        "href": "https://gbatemp.net/download/categories/files-synchronisation.1287/add",
+        "cat_id": "1287"
+    },
+    "389": {
+        "name": "Firmware & Software updates",
+        "href": "https://gbatemp.net/download/categories/firmware-software-updates.1289/add",
+        "cat_id": "1289"
+    },
+    "390": {
+        "name": "Games & Emulators",
+        "href": "https://gbatemp.net/download/categories/games-emulators.1284/add",
+        "cat_id": "1284"
+    },
+    "391": {
+        "name": "Internet",
+        "href": "https://gbatemp.net/download/categories/internet.1286/add",
+        "cat_id": "1286"
+    },
+    "392": {
+        "name": "Maps, GPS & Navigation",
+        "href": "https://gbatemp.net/download/categories/maps-gps-navigation.1288/add",
+        "cat_id": "1288"
+    },
+    "393": {
+        "name": "Multimedia",
+        "href": "https://gbatemp.net/download/categories/multimedia.1285/add",
+        "cat_id": "1285"
+    },
+    "394": {
+        "name": "Other Files",
+        "href": "https://gbatemp.net/download/categories/other-files.1292/add",
+        "cat_id": "1292"
+    },
+    "395": {
+        "name": "Tools & utilities",
+        "href": "https://gbatemp.net/download/categories/tools-utilities.1290/add",
+        "cat_id": "1290"
+    },
+    "396": {
+        "name": "Development",
+        "href": "https://gbatemp.net/download/categories/development.1640/add",
+        "cat_id": "1640"
+    },
+    "397": {
+        "name": "Files & Sync",
+        "href": "https://gbatemp.net/download/categories/files-sync.1641/add",
+        "cat_id": "1641"
+    },
+    "398": {
+        "name": "Games & Emulators",
+        "href": "https://gbatemp.net/download/categories/games-emulators.1642/add",
+        "cat_id": "1642"
+    },
+    "399": {
+        "name": "Hacking",
+        "href": "https://gbatemp.net/download/categories/hacking.1643/add",
+        "cat_id": "1643"
+    },
+    "400": {
+        "name": "Internet",
+        "href": "https://gbatemp.net/download/categories/internet.1644/add",
+        "cat_id": "1644"
+    },
+    "401": {
+        "name": "Maps & GPS",
+        "href": "https://gbatemp.net/download/categories/maps-gps.1645/add",
+        "cat_id": "1645"
+    },
+    "402": {
+        "name": "Multimedia",
+        "href": "https://gbatemp.net/download/categories/multimedia.1646/add",
+        "cat_id": "1646"
+    },
+    "403": {
+        "name": "Others",
+        "href": "https://gbatemp.net/download/categories/others.1649/add",
+        "cat_id": "1649"
+    },
+    "404": {
+        "name": "System updates",
+        "href": "https://gbatemp.net/download/categories/system-updates.1647/add",
+        "cat_id": "1647"
+    },
+    "405": {
+        "name": "Tools & Utilities",
+        "href": "https://gbatemp.net/download/categories/tools-utilities.1648/add",
+        "cat_id": "1648"
+    },
+    "406": {
+        "name": "Emulators",
+        "href": "https://gbatemp.net/download/categories/emulators.1549/add",
+        "cat_id": "1549"
+    },
+    "407": {
+        "name": "Flashcart Files & Resources",
+        "href": "https://gbatemp.net/download/categories/flashcart-files-resources.1553/add",
+        "cat_id": "1553"
+    },
+    "408": {
+        "name": "Game Saves",
+        "href": "https://gbatemp.net/download/categories/game-saves.1550/add",
+        "cat_id": "1550"
+    },
+    "409": {
+        "name": "Homebrew",
+        "href": "https://gbatemp.net/download/categories/homebrew.1551/add",
+        "cat_id": "1551"
+    },
+    "410": {
+        "name": "Other Files",
+        "href": "https://gbatemp.net/download/categories/other-files.1554/add",
+        "cat_id": "1554"
+    },
+    "411": {
+        "name": "ROM Hacks & Tools",
+        "href": "https://gbatemp.net/download/categories/rom-hacks-tools.1552/add",
+        "cat_id": "1552"
+    },
+    "412": {
+        "name": "Tools & Utilities",
+        "href": "https://gbatemp.net/download/categories/tools-utilities.1555/add",
+        "cat_id": "1555"
+    },
+    "413": {
+        "name": "Dashboards & Tools",
+        "href": "https://gbatemp.net/download/categories/dashboards-tools.1150/add",
+        "cat_id": "1150"
+    },
+    "414": {
+        "name": "Emulators",
+        "href": "https://gbatemp.net/download/categories/emulators.1151/add",
+        "cat_id": "1151"
+    },
+    "415": {
+        "name": "Exploit Tools",
+        "href": "https://gbatemp.net/download/categories/exploit-tools.1155/add",
+        "cat_id": "1155"
+    },
+    "416": {
+        "name": "File Management Tools",
+        "href": "https://gbatemp.net/download/categories/file-management-tools.1156/add",
+        "cat_id": "1156"
+    },
+    "417": {
+        "name": "Game saves",
+        "href": "https://gbatemp.net/download/categories/game-saves.1158/add",
+        "cat_id": "1158"
+    },
+    "418": {
+        "name": "Homebrew",
+        "href": "https://gbatemp.net/download/categories/homebrew.1383/add",
+        "cat_id": "1383"
+    },
+    "419": {
+        "name": "ISO Hacks & Tools",
+        "href": "https://gbatemp.net/download/categories/iso-hacks-tools.1154/add",
+        "cat_id": "1154"
+    },
+    "420": {
+        "name": "Modchip Files & Resources",
+        "href": "https://gbatemp.net/download/categories/modchip-files-resources.1391/add",
+        "cat_id": "1391"
+    },
+    "421": {
+        "name": "Multimedia",
+        "href": "https://gbatemp.net/download/categories/multimedia.1152/add",
+        "cat_id": "1152"
+    },
+    "422": {
+        "name": "Network Tools",
+        "href": "https://gbatemp.net/download/categories/network-tools.1153/add",
+        "cat_id": "1153"
+    },
+    "423": {
+        "name": "Other Files",
+        "href": "https://gbatemp.net/download/categories/other-files.1157/add",
+        "cat_id": "1157"
+    },
+    "424": {
+        "name": "Emulators",
+        "href": "https://gbatemp.net/download/categories/emulators.1384/add",
+        "cat_id": "1384"
+    },
+    "425": {
+        "name": "Exploit Tools",
+        "href": "https://gbatemp.net/download/categories/exploit-tools.1385/add",
+        "cat_id": "1385"
+    },
+    "426": {
+        "name": "Game saves",
+        "href": "https://gbatemp.net/download/categories/game-saves.1387/add",
+        "cat_id": "1387"
+    },
+    "427": {
+        "name": "Homebrew",
+        "href": "https://gbatemp.net/download/categories/homebrew.1170/add",
+        "cat_id": "1170"
+    },
+    "428": {
+        "name": "ISO Hacks & Tools",
+        "href": "https://gbatemp.net/download/categories/iso-hacks-tools.1386/add",
+        "cat_id": "1386"
+    },
+    "429": {
+        "name": "Modchip Files & Resources",
+        "href": "https://gbatemp.net/download/categories/modchip-files-resources.1390/add",
+        "cat_id": "1390"
+    },
+    "430": {
+        "name": "Other Files",
+        "href": "https://gbatemp.net/download/categories/other-files.1389/add",
+        "cat_id": "1389"
+    },
+    "431": {
+        "name": "Tools & Utilities",
+        "href": "https://gbatemp.net/download/categories/tools-utilities.1388/add",
+        "cat_id": "1388"
+    },
+    "432": {
+        "name": "Emulators",
+        "href": "https://gbatemp.net/download/categories/emulators.1460/add",
+        "cat_id": "1460"
+    },
+    "433": {
+        "name": "Exploit Tools",
+        "href": "https://gbatemp.net/download/categories/exploit-tools.1461/add",
+        "cat_id": "1461"
+    },
+    "434": {
+        "name": "Game saves",
+        "href": "https://gbatemp.net/download/categories/game-saves.1463/add",
+        "cat_id": "1463"
+    },
+    "435": {
+        "name": "Homebrew",
+        "href": "https://gbatemp.net/download/categories/homebrew.1459/add",
+        "cat_id": "1459"
+    },
+    "436": {
+        "name": "ISO Hacks & Tools",
+        "href": "https://gbatemp.net/download/categories/iso-hacks-tools.1462/add",
+        "cat_id": "1462"
+    },
+    "437": {
+        "name": "Modchip Files & Resources",
+        "href": "https://gbatemp.net/download/categories/modchip-files-resources.1466/add",
+        "cat_id": "1466"
+    },
+    "438": {
+        "name": "Other Files",
+        "href": "https://gbatemp.net/download/categories/other-files.1465/add",
+        "cat_id": "1465"
+    },
+    "439": {
+        "name": "Tools & Utilities",
+        "href": "https://gbatemp.net/download/categories/tools-utilities.1464/add",
+        "cat_id": "1464"
+    },
+    "440": {
+        "name": "Emulators",
+        "href": "https://gbatemp.net/download/categories/emulators.1393/add",
+        "cat_id": "1393"
+    },
+    "441": {
+        "name": "Exploit Tools",
+        "href": "https://gbatemp.net/download/categories/exploit-tools.1394/add",
+        "cat_id": "1394"
+    },
+    "442": {
+        "name": "Game saves",
+        "href": "https://gbatemp.net/download/categories/game-saves.1396/add",
+        "cat_id": "1396"
+    },
+    "443": {
+        "name": "Homebrew",
+        "href": "https://gbatemp.net/download/categories/homebrew.1392/add",
+        "cat_id": "1392"
+    },
+    "444": {
+        "name": "ISO Hacks & Tools",
+        "href": "https://gbatemp.net/download/categories/iso-hacks-tools.1395/add",
+        "cat_id": "1395"
+    },
+    "445": {
+        "name": "Modchip Files & Resources",
+        "href": "https://gbatemp.net/download/categories/modchip-files-resources.1399/add",
+        "cat_id": "1399"
+    },
+    "446": {
+        "name": "Other Files",
+        "href": "https://gbatemp.net/download/categories/other-files.1398/add",
+        "cat_id": "1398"
+    },
+    "447": {
+        "name": "Tools & Utilities",
+        "href": "https://gbatemp.net/download/categories/tools-utilities.1397/add",
+        "cat_id": "1397"
+    },
+    "448": {
+        "name": "Emulators",
+        "href": "https://gbatemp.net/download/categories/emulators.1468/add",
+        "cat_id": "1468"
+    },
+    "449": {
+        "name": "Exploit Tools",
+        "href": "https://gbatemp.net/download/categories/exploit-tools.1469/add",
+        "cat_id": "1469"
+    },
+    "450": {
+        "name": "Game saves",
+        "href": "https://gbatemp.net/download/categories/game-saves.1471/add",
+        "cat_id": "1471"
+    },
+    "451": {
+        "name": "Homebrew",
+        "href": "https://gbatemp.net/download/categories/homebrew.1467/add",
+        "cat_id": "1467"
+    },
+    "452": {
+        "name": "ISO Hacks & Tools",
+        "href": "https://gbatemp.net/download/categories/iso-hacks-tools.1470/add",
+        "cat_id": "1470"
+    },
+    "453": {
+        "name": "Modchip Files & Resources",
+        "href": "https://gbatemp.net/download/categories/modchip-files-resources.1474/add",
+        "cat_id": "1474"
+    },
+    "454": {
+        "name": "Other Files",
+        "href": "https://gbatemp.net/download/categories/other-files.1473/add",
+        "cat_id": "1473"
+    },
+    "455": {
+        "name": "Tools & Utilities",
+        "href": "https://gbatemp.net/download/categories/tools-utilities.1472/add",
+        "cat_id": "1472"
+    },
+    "456": {
+        "name": "Emulators",
+        "href": "https://gbatemp.net/download/categories/emulators.1476/add",
+        "cat_id": "1476"
+    },
+    "457": {
+        "name": "Exploit Tools",
+        "href": "https://gbatemp.net/download/categories/exploit-tools.1477/add",
+        "cat_id": "1477"
+    },
+    "458": {
+        "name": "Game saves",
+        "href": "https://gbatemp.net/download/categories/game-saves.1479/add",
+        "cat_id": "1479"
+    },
+    "459": {
+        "name": "Homebrew",
+        "href": "https://gbatemp.net/download/categories/homebrew.1475/add",
+        "cat_id": "1475"
+    },
+    "460": {
+        "name": "ISO Hacks & Tools",
+        "href": "https://gbatemp.net/download/categories/iso-hacks-tools.1478/add",
+        "cat_id": "1478"
+    },
+    "461": {
+        "name": "Modchip Files & Resources",
+        "href": "https://gbatemp.net/download/categories/modchip-files-resources.1482/add",
+        "cat_id": "1482"
+    },
+    "462": {
+        "name": "Other Files",
+        "href": "https://gbatemp.net/download/categories/other-files.1481/add",
+        "cat_id": "1481"
+    },
+    "463": {
+        "name": "Tools & Utilities",
+        "href": "https://gbatemp.net/download/categories/tools-utilities.1480/add",
+        "cat_id": "1480"
+    },
+    "464": {
+        "name": "Development",
+        "href": "https://gbatemp.net/download/categories/development.1404/add",
+        "cat_id": "1404"
+    },
+    "465": {
+        "name": "Emulators",
+        "href": "https://gbatemp.net/download/categories/emulators.1519/add",
+        "cat_id": "1519"
+    },
+    "466": {
+        "name": "Flashcart & Linker Tools",
+        "href": "https://gbatemp.net/download/categories/flashcart-linker-tools.1400/add",
+        "cat_id": "1400"
+    },
+    "467": {
+        "name": "Game Fixes & Patches",
+        "href": "https://gbatemp.net/download/categories/game-fixes-patches.1403/add",
+        "cat_id": "1403"
+    },
+    "468": {
+        "name": "Game Saves",
+        "href": "https://gbatemp.net/download/categories/game-saves.1407/add",
+        "cat_id": "1407"
+    },
+    "469": {
+        "name": "Homebrew",
+        "href": "https://gbatemp.net/download/categories/homebrew.1401/add",
+        "cat_id": "1401"
+    },
+    "470": {
+        "name": "Other Files",
+        "href": "https://gbatemp.net/download/categories/other-files.1406/add",
+        "cat_id": "1406"
+    },
+    "471": {
+        "name": "ROM Patching & Hacking Tools",
+        "href": "https://gbatemp.net/download/categories/rom-patching-hacking-tools.1402/add",
+        "cat_id": "1402"
+    },
+    "472": {
+        "name": "Tools & Utilities",
+        "href": "https://gbatemp.net/download/categories/tools-utilities.1405/add",
+        "cat_id": "1405"
+    },
+    "473": {
+        "name": "Development",
+        "href": "https://gbatemp.net/download/categories/development.1420/add",
+        "cat_id": "1420"
+    },
+    "474": {
+        "name": "Emulators",
+        "href": "https://gbatemp.net/download/categories/emulators.1521/add",
+        "cat_id": "1521"
+    },
+    "475": {
+        "name": "Flashcart & Linker Tools",
+        "href": "https://gbatemp.net/download/categories/flashcart-linker-tools.1416/add",
+        "cat_id": "1416"
+    },
+    "476": {
+        "name": "Game Fixes & Patches",
+        "href": "https://gbatemp.net/download/categories/game-fixes-patches.1419/add",
+        "cat_id": "1419"
+    },
+    "477": {
+        "name": "Game Saves",
+        "href": "https://gbatemp.net/download/categories/game-saves.1423/add",
+        "cat_id": "1423"
+    },
+    "478": {
+        "name": "Homebrew",
+        "href": "https://gbatemp.net/download/categories/homebrew.1417/add",
+        "cat_id": "1417"
+    },
+    "479": {
+        "name": "Other Files",
+        "href": "https://gbatemp.net/download/categories/other-files.1422/add",
+        "cat_id": "1422"
+    },
+    "480": {
+        "name": "ROM Patching & Hacking Tools",
+        "href": "https://gbatemp.net/download/categories/rom-patching-hacking-tools.1418/add",
+        "cat_id": "1418"
+    },
+    "481": {
+        "name": "Tools & Utilities",
+        "href": "https://gbatemp.net/download/categories/tools-utilities.1421/add",
+        "cat_id": "1421"
+    },
+    "482": {
+        "name": "Development",
+        "href": "https://gbatemp.net/download/categories/development.1412/add",
+        "cat_id": "1412"
+    },
+    "483": {
+        "name": "Emulators",
+        "href": "https://gbatemp.net/download/categories/emulators.1520/add",
+        "cat_id": "1520"
+    },
+    "484": {
+        "name": "Flashcart & Linker Tools",
+        "href": "https://gbatemp.net/download/categories/flashcart-linker-tools.1408/add",
+        "cat_id": "1408"
+    },
+    "485": {
+        "name": "Game Fixes & Patches",
+        "href": "https://gbatemp.net/download/categories/game-fixes-patches.1411/add",
+        "cat_id": "1411"
+    },
+    "486": {
+        "name": "Game Saves",
+        "href": "https://gbatemp.net/download/categories/game-saves.1415/add",
+        "cat_id": "1415"
+    },
+    "487": {
+        "name": "Homebrew",
+        "href": "https://gbatemp.net/download/categories/homebrew.1409/add",
+        "cat_id": "1409"
+    },
+    "488": {
+        "name": "Other Files",
+        "href": "https://gbatemp.net/download/categories/other-files.1414/add",
+        "cat_id": "1414"
+    },
+    "489": {
+        "name": "ROM Patching & Hacking Tools",
+        "href": "https://gbatemp.net/download/categories/rom-patching-hacking-tools.1410/add",
+        "cat_id": "1410"
+    },
+    "490": {
+        "name": "Tools & Utilities",
+        "href": "https://gbatemp.net/download/categories/tools-utilities.1413/add",
+        "cat_id": "1413"
+    },
+    "491": {
+        "name": "Development",
+        "href": "https://gbatemp.net/download/categories/development.1428/add",
+        "cat_id": "1428"
+    },
+    "492": {
+        "name": "Emulators",
+        "href": "https://gbatemp.net/download/categories/emulators.1522/add",
+        "cat_id": "1522"
+    },
+    "493": {
+        "name": "Flashcart & Linker Tools",
+        "href": "https://gbatemp.net/download/categories/flashcart-linker-tools.1424/add",
+        "cat_id": "1424"
+    },
+    "494": {
+        "name": "Game Fixes & Patches",
+        "href": "https://gbatemp.net/download/categories/game-fixes-patches.1427/add",
+        "cat_id": "1427"
+    },
+    "495": {
+        "name": "Game Saves",
+        "href": "https://gbatemp.net/download/categories/game-saves.1431/add",
+        "cat_id": "1431"
+    },
+    "496": {
+        "name": "Homebrew",
+        "href": "https://gbatemp.net/download/categories/homebrew.1425/add",
+        "cat_id": "1425"
+    },
+    "497": {
+        "name": "Other Files",
+        "href": "https://gbatemp.net/download/categories/other-files.1430/add",
+        "cat_id": "1430"
+    },
+    "498": {
+        "name": "ROM Patching & Hacking Tools",
+        "href": "https://gbatemp.net/download/categories/rom-patching-hacking-tools.1426/add",
+        "cat_id": "1426"
+    },
+    "499": {
+        "name": "Tools & Utilities",
+        "href": "https://gbatemp.net/download/categories/tools-utilities.1429/add",
+        "cat_id": "1429"
+    },
+    "500": {
+        "name": "Development",
+        "href": "https://gbatemp.net/download/categories/development.1444/add",
+        "cat_id": "1444"
+    },
+    "501": {
+        "name": "Emulators",
+        "href": "https://gbatemp.net/download/categories/emulators.1523/add",
+        "cat_id": "1523"
+    },
+    "502": {
+        "name": "Flashcart & Linker Tools",
+        "href": "https://gbatemp.net/download/categories/flashcart-linker-tools.1440/add",
+        "cat_id": "1440"
+    },
+    "503": {
+        "name": "Game Fixes & Patches",
+        "href": "https://gbatemp.net/download/categories/game-fixes-patches.1443/add",
+        "cat_id": "1443"
+    },
+    "504": {
+        "name": "Game Saves",
+        "href": "https://gbatemp.net/download/categories/game-saves.1447/add",
+        "cat_id": "1447"
+    },
+    "505": {
+        "name": "Homebrew",
+        "href": "https://gbatemp.net/download/categories/homebrew.1441/add",
+        "cat_id": "1441"
+    },
+    "506": {
+        "name": "Other Files",
+        "href": "https://gbatemp.net/download/categories/other-files.1446/add",
+        "cat_id": "1446"
+    },
+    "507": {
+        "name": "ROM Patching & Hacking Tools",
+        "href": "https://gbatemp.net/download/categories/rom-patching-hacking-tools.1442/add",
+        "cat_id": "1442"
+    },
+    "508": {
+        "name": "Tools & Utilities",
+        "href": "https://gbatemp.net/download/categories/tools-utilities.1445/add",
+        "cat_id": "1445"
+    },
+    "509": {
+        "name": "Development",
+        "href": "https://gbatemp.net/download/categories/development.1455/add",
+        "cat_id": "1455"
+    },
+    "510": {
+        "name": "Emulators",
+        "href": "https://gbatemp.net/download/categories/emulators.1525/add",
+        "cat_id": "1525"
+    },
+    "511": {
+        "name": "Flashcart & Linker Tools",
+        "href": "https://gbatemp.net/download/categories/flashcart-linker-tools.1451/add",
+        "cat_id": "1451"
+    },
+    "512": {
+        "name": "Game Fixes & Patches",
+        "href": "https://gbatemp.net/download/categories/game-fixes-patches.1454/add",
+        "cat_id": "1454"
+    },
+    "513": {
+        "name": "Game Saves",
+        "href": "https://gbatemp.net/download/categories/game-saves.1458/add",
+        "cat_id": "1458"
+    },
+    "514": {
+        "name": "Homebrew",
+        "href": "https://gbatemp.net/download/categories/homebrew.1452/add",
+        "cat_id": "1452"
+    },
+    "515": {
+        "name": "Other Files",
+        "href": "https://gbatemp.net/download/categories/other-files.1457/add",
+        "cat_id": "1457"
+    },
+    "516": {
+        "name": "ROM Patching & Hacking Tools",
+        "href": "https://gbatemp.net/download/categories/rom-patching-hacking-tools.1453/add",
+        "cat_id": "1453"
+    },
+    "517": {
+        "name": "Tools & Utilities",
+        "href": "https://gbatemp.net/download/categories/tools-utilities.1456/add",
+        "cat_id": "1456"
+    },
+    "518": {
+        "name": "Applications",
+        "href": "https://gbatemp.net/download/categories/applications.1488/add",
+        "cat_id": "1488"
+    },
+    "519": {
+        "name": "Emulators",
+        "href": "https://gbatemp.net/download/categories/emulators.1486/add",
+        "cat_id": "1486"
+    },
+    "520": {
+        "name": "Firmwares & Tools",
+        "href": "https://gbatemp.net/download/categories/firmwares-tools.1485/add",
+        "cat_id": "1485"
+    },
+    "521": {
+        "name": "Games",
+        "href": "https://gbatemp.net/download/categories/games.1487/add",
+        "cat_id": "1487"
+    },
+    "522": {
+        "name": "Other Files",
+        "href": "https://gbatemp.net/download/categories/other-files.1490/add",
+        "cat_id": "1490"
+    },
+    "523": {
+        "name": "Savegames",
+        "href": "https://gbatemp.net/download/categories/savegames.1492/add",
+        "cat_id": "1492"
+    },
+    "524": {
+        "name": "Skins & Customization",
+        "href": "https://gbatemp.net/download/categories/skins-customization.1491/add",
+        "cat_id": "1491"
+    },
+    "525": {
+        "name": "Tools & Utilities",
+        "href": "https://gbatemp.net/download/categories/tools-utilities.1489/add",
+        "cat_id": "1489"
+    },
+    "526": {
+        "name": "Applications",
+        "href": "https://gbatemp.net/download/categories/applications.1651/add",
+        "cat_id": "1651"
+    },
+    "527": {
+        "name": "Emulators",
+        "href": "https://gbatemp.net/download/categories/emulators.1652/add",
+        "cat_id": "1652"
+    },
+    "528": {
+        "name": "Firmware & Tools",
+        "href": "https://gbatemp.net/download/categories/firmware-tools.1653/add",
+        "cat_id": "1653"
+    },
+    "529": {
+        "name": "Games",
+        "href": "https://gbatemp.net/download/categories/games.1654/add",
+        "cat_id": "1654"
+    },
+    "530": {
+        "name": "Other Files",
+        "href": "https://gbatemp.net/download/categories/other-files.1655/add",
+        "cat_id": "1655"
+    },
+    "531": {
+        "name": "Tools & Utilities",
+        "href": "https://gbatemp.net/download/categories/tools-utilities.1656/add",
+        "cat_id": "1656"
+    },
+    "532": {
+        "name": "OpenBOR",
+        "href": "https://gbatemp.net/download/categories/openbor.1637/add",
+        "cat_id": "1637"
+    },
+    "533": {
+        "name": "Applications",
+        "href": "https://gbatemp.net/download/categories/applications.1496/add",
+        "cat_id": "1496"
+    },
+    "534": {
+        "name": "Emulators",
+        "href": "https://gbatemp.net/download/categories/emulators.1494/add",
+        "cat_id": "1494"
+    },
+    "535": {
+        "name": "Firmwares & Tools",
+        "href": "https://gbatemp.net/download/categories/firmwares-tools.1493/add",
+        "cat_id": "1493"
+    },
+    "536": {
+        "name": "Games",
+        "href": "https://gbatemp.net/download/categories/games.1495/add",
+        "cat_id": "1495"
+    },
+    "537": {
+        "name": "Other Files",
+        "href": "https://gbatemp.net/download/categories/other-files.1498/add",
+        "cat_id": "1498"
+    },
+    "538": {
+        "name": "Savegames",
+        "href": "https://gbatemp.net/download/categories/savegames.1500/add",
+        "cat_id": "1500"
+    },
+    "539": {
+        "name": "Skins & Customization",
+        "href": "https://gbatemp.net/download/categories/skins-customization.1499/add",
+        "cat_id": "1499"
+    },
+    "540": {
+        "name": "Tools & Utilities",
+        "href": "https://gbatemp.net/download/categories/tools-utilities.1497/add",
+        "cat_id": "1497"
+    },
+    "541": {
+        "name": "Applications",
+        "href": "https://gbatemp.net/download/categories/applications.1504/add",
+        "cat_id": "1504"
+    },
+    "542": {
+        "name": "Emulators",
+        "href": "https://gbatemp.net/download/categories/emulators.1502/add",
+        "cat_id": "1502"
+    },
+    "543": {
+        "name": "Firmwares & Tools",
+        "href": "https://gbatemp.net/download/categories/firmwares-tools.1501/add",
+        "cat_id": "1501"
+    },
+    "544": {
+        "name": "Games",
+        "href": "https://gbatemp.net/download/categories/games.1503/add",
+        "cat_id": "1503"
+    },
+    "545": {
+        "name": "Other Files",
+        "href": "https://gbatemp.net/download/categories/other-files.1506/add",
+        "cat_id": "1506"
+    },
+    "546": {
+        "name": "Savegames",
+        "href": "https://gbatemp.net/download/categories/savegames.1508/add",
+        "cat_id": "1508"
+    },
+    "547": {
+        "name": "Skins & Customization",
+        "href": "https://gbatemp.net/download/categories/skins-customization.1507/add",
+        "cat_id": "1507"
+    },
+    "548": {
+        "name": "Tools & Utilities",
+        "href": "https://gbatemp.net/download/categories/tools-utilities.1505/add",
+        "cat_id": "1505"
+    },
+    "549": {
+        "name": "Applications",
+        "href": "https://gbatemp.net/download/categories/applications.1512/add",
+        "cat_id": "1512"
+    },
+    "550": {
+        "name": "Emulators",
+        "href": "https://gbatemp.net/download/categories/emulators.1510/add",
+        "cat_id": "1510"
+    },
+    "551": {
+        "name": "Firmwares & Tools",
+        "href": "https://gbatemp.net/download/categories/firmwares-tools.1509/add",
+        "cat_id": "1509"
+    },
+    "552": {
+        "name": "Games",
+        "href": "https://gbatemp.net/download/categories/games.1511/add",
+        "cat_id": "1511"
+    },
+    "553": {
+        "name": "Other Files",
+        "href": "https://gbatemp.net/download/categories/other-files.1514/add",
+        "cat_id": "1514"
+    },
+    "554": {
+        "name": "Savegames",
+        "href": "https://gbatemp.net/download/categories/savegames.1516/add",
+        "cat_id": "1516"
+    },
+    "555": {
+        "name": "Skins & Customization",
+        "href": "https://gbatemp.net/download/categories/skins-customization.1515/add",
+        "cat_id": "1515"
+    },
+    "556": {
+        "name": "Tools & Utilities",
+        "href": "https://gbatemp.net/download/categories/tools-utilities.1513/add",
+        "cat_id": "1513"
+    },
+    "557": {
+        "name": "Other systems",
+        "href": "https://gbatemp.net/download/categories/other-systems.1169/add",
+        "cat_id": "1169"
+    },
+    "558": {
+        "name": "PocketPC",
+        "href": "https://gbatemp.net/download/categories/pocketpc.1164/add",
+        "cat_id": "1164"
+    },
+    "559": {
+        "name": "Symbian OS",
+        "href": "https://gbatemp.net/download/categories/symbian-os.1166/add",
+        "cat_id": "1166"
+    },
+    "560": {
+        "name": "Linux Based",
+        "href": "https://gbatemp.net/download/categories/linux-based.1229/add",
+        "cat_id": "1229"
+    },
+    "561": {
+        "name": "Other PDAs",
+        "href": "https://gbatemp.net/download/categories/other-pdas.1167/add",
+        "cat_id": "1167"
+    },
+    "562": {
+        "name": "Tempcast",
+        "href": "https://gbatemp.net/download/categories/tempcast.1692/add",
+        "cat_id": "1692"
+    }
+}

@@ -34,44 +34,57 @@ def print_progress(current, total):
 
 def process_single_zip(zip_path, driver, config, lock, tag_to_use, shared_processed, shared_total, shared_queue, shared_turn, num_browsers, selected_name):
     zip_path = os.path.abspath(zip_path)
-    print(f"Processing {zip_path}...")
+    print(f"{Fore.CYAN}Processing {zip_path}...{Style.RESET_ALL}")
     
     # Calculate wait time based on file size
     size_mb = os.path.getsize(zip_path) / (1024 * 1024)
     wait_seconds = int(config.get('upload_wait_base', 30) + size_mb * config.get('upload_wait_per_mb', 0.75))
-    print(f"File size: {size_mb:.2f} MB, calculated wait time: {wait_seconds} seconds")
+    print(f"{Fore.CYAN}File size: {size_mb:.2f} MB, calculated wait time: {wait_seconds} seconds{Style.RESET_ALL}")
     
     # Get description and tagline from README.md in zip
     description, tagline = get_desc_and_tagline(zip_path)
-    print(f"Tagline: {tagline}")
-    print(f"Description: {description[:50]}...")  # Preview
+    print(f"{Fore.CYAN}Tagline: {tagline}{Style.RESET_ALL}")
+    print(f"{Fore.CYAN}Description: {description[:50]}...{Style.RESET_ALL}")  # Preview
 
     # Fill title (use zip filename without extension)
+    print(f"{Fore.YELLOW}Step: Filling title...{Style.RESET_ALL}")
     title = os.path.basename(zip_path).replace('.zip', '').replace('_', ' ')
-    title_input = driver.find_element(By.NAME, "title")
-    title_input.clear()
-    title_input.send_keys(title)
-    print(f"Title filled: {title}")
+    title_input = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.CSS_SELECTOR, "input[name='title']")))
+    highlight_element(driver, title_input)
+    driver.execute_script("arguments[0].value = arguments[1];", title_input, title)
+    print(f"{Fore.GREEN}Title filled: {title}{Style.RESET_ALL}")
+    if config.get('manual_mode', False):
+        input("Press Enter to continue after filling title...")
 
     # Fill tag line
-    tag_line_input = driver.find_element(By.NAME, "tag_line")
-    tag_line_input.clear()
-    tag_line_input.send_keys(tagline)
-    print("Tag line filled.")
+    print(f"{Fore.YELLOW}Step: Filling tag line...{Style.RESET_ALL}")
+    tag_line_input = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.CSS_SELECTOR, "input[name='tag_line']")))
+    highlight_element(driver, tag_line_input)
+    driver.execute_script("arguments[0].value = arguments[1];", tag_line_input, tagline)
+    print(f"{Fore.GREEN}Tag line filled.{Style.RESET_ALL}")
+    if config.get('manual_mode', False):
+        input("Press Enter to continue after filling tag line...")
 
     # Fill version string
-    version_input = driver.find_element(By.NAME, "version_string")
-    version_input.clear()
-    version_input.send_keys("1.0.0")
-    print("Version set to 1.0.0.")
+    print(f"{Fore.YELLOW}Step: Filling version string...{Style.RESET_ALL}")
+    version_input = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.CSS_SELECTOR, "input[name='version_string']")))
+    highlight_element(driver, version_input)
+    driver.execute_script("arguments[0].value = arguments[1];", version_input, "1.0.0")
+    print(f"{Fore.GREEN}Version set to 1.0.0.{Style.RESET_ALL}")
+    if config.get('manual_mode', False):
+        input("Press Enter to continue after filling version...")
 
     # Fill description
-    desc_div = driver.find_element(By.CSS_SELECTOR, "div.fr-element")
-    desc_div.clear()
-    desc_div.send_keys(description)
-    print("Description filled.")
+    print(f"{Fore.YELLOW}Step: Filling description...{Style.RESET_ALL}")
+    desc_div = WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.CSS_SELECTOR, "div.fr-element")))
+    highlight_element(driver, desc_div)
+    driver.execute_script("arguments[0].innerHTML = arguments[1];", desc_div, description)
+    print(f"{Fore.GREEN}Description filled.{Style.RESET_ALL}")
+    if config.get('manual_mode', False):
+        input("Press Enter to continue after filling description...")
 
     # Fill tags
+    print(f"{Fore.YELLOW}Step: Filling tags...{Style.RESET_ALL}")
     tags_text = tag_to_use
     # Remove existing tags
     existing_tags = driver.find_elements(By.CSS_SELECTOR, "tag.tagify__tag")
@@ -82,51 +95,60 @@ def process_single_zip(zip_path, driver, config, lock, tag_to_use, shared_proces
         except:
             pass
     tags_input = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.CSS_SELECTOR, "span.tagify__input")))
+    highlight_element(driver, tags_input)
     tags_input.send_keys(tags_text + Keys.ENTER)
     time.sleep(1)
     # Dismiss dropdown
     tags_input.send_keys(Keys.ESCAPE)
-    print(f"Tags set to {tags_text}")
+    print(f"{Fore.GREEN}Tags set to {tags_text}{Style.RESET_ALL}")
+    if config.get('manual_mode', False):
+        input("Press Enter to continue after filling tags...")
 
     # Attach files
-    attach_button = driver.find_element(By.CSS_SELECTOR, "a.button--icon--attach")
+    print(f"{Fore.YELLOW}Step: Attaching files...{Style.RESET_ALL}")
+    attach_button = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.CSS_SELECTOR, "a.button--icon--attach")))
     highlight_element(driver, attach_button)
+    main_window = driver.current_window_handle
     driver.execute_script("arguments[0].click();", attach_button)
-    print("Attach files clicked.")
+    print(f"{Fore.GREEN}Attach files clicked.{Style.RESET_ALL}")
 
     # Wait for file dialog and automate selection
     time.sleep(5)  # Wait for dialog to open
-    if lock:
-        lock.acquire()
     pyautogui.write(zip_path)  # Write full path to filename field
     pyautogui.press('enter')
-    if lock:
-        lock.release()
-    print("File selected via dialog.")
+    print(f"{Fore.GREEN}File selected via dialog.{Style.RESET_ALL}")
 
     # Wait for upload completion
-    print("Waiting for file upload to complete...")
+    print(f"{Fore.YELLOW}Step: Waiting for file upload to complete...{Style.RESET_ALL}")
     WebDriverWait(driver, config.get('upload_wait_timeout', 180)).until(EC.presence_of_element_located((By.CSS_SELECTOR, "a.file-info")))
     for i in range(wait_seconds, 0, -1):
-        print(f"Ensuring upload completion: {i} seconds remaining...")
+        print(f"{Fore.CYAN}Ensuring upload completion: {i} seconds remaining...{Style.RESET_ALL}")
         time.sleep(1)
-    print("File uploaded.")
+    print(f"{Fore.GREEN}File uploaded.{Style.RESET_ALL}")
+    if config.get('manual_mode', False):
+        input("Press Enter to continue after upload completion...")
 
     # Find save button
+    print(f"{Fore.YELLOW}Step: Finding save button...{Style.RESET_ALL}")
     save_button = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.XPATH, "//button[.//span[text()='Save']]")))
-    print("Save button found.")
+    highlight_element(driver, save_button)
+    print(f"{Fore.GREEN}Save button found.{Style.RESET_ALL}")
+    if config.get('manual_mode', False):
+        input("Press Enter to continue after finding save button...")
 
     if config.get('auto_submit', False):
+        print(f"{Fore.YELLOW}Step: Auto-submitting form...{Style.RESET_ALL}")
         submission_success = False
         for attempt in range(3):
             try:
                 driver.execute_script("arguments[0].click();", save_button)
-                print("Form submitted automatically.")
+                print(f"{Fore.GREEN}Form submitted automatically.{Style.RESET_ALL}")
                 WebDriverWait(driver, 30).until(lambda d: '/downloads/add' not in d.current_url)
-                print("Submission successful, page redirected.")
+                print(f"{Fore.GREEN}Submission successful, page redirected.{Style.RESET_ALL}")
                 time.sleep(2)
+                zip_path = os.path.relpath(zip_path)
                 mark_processed(zip_path)
-                print(f"Marked {zip_path} as processed.")
+                print(f"{Fore.GREEN}Marked {zip_path} as processed.{Style.RESET_ALL}")
                 if shared_processed is not None:
                     with shared_processed.get_lock():
                         shared_processed.value += 1
@@ -137,48 +159,49 @@ def process_single_zip(zip_path, driver, config, lock, tag_to_use, shared_proces
                 try:
                     alert = driver.switch_to.alert
                     alert.accept()
-                    print("Alert accepted, retrying submission.")
+                    print(f"{Fore.YELLOW}Alert accepted, retrying submission.{Style.RESET_ALL}")
                     wait_time = (attempt + 1) * 10
-                    print(f"Waiting {wait_time} seconds before retry...")
+                    print(f"{Fore.YELLOW}Waiting {wait_time} seconds before retry...{Style.RESET_ALL}")
                     time.sleep(wait_time)
                     continue
                 except Exception as e:
-                    print(f"Alert handling failed: {e}")
+                    print(f"{Fore.RED}Alert handling failed: {e}{Style.RESET_ALL}")
                     break
             except Exception as e:
-                print(f"Submission failed: {e}")
+                print(f"{Fore.RED}Submission failed: {e}{Style.RESET_ALL}")
                 if attempt < 2:
                     wait_time = (attempt + 1) * 10
-                    print(f"Waiting {wait_time} seconds before retry...")
+                    print(f"{Fore.YELLOW}Waiting {wait_time} seconds before retry...{Style.RESET_ALL}")
                     time.sleep(wait_time)
                     continue
                 break
         if not submission_success:
-            print("Submission failed after 3 attempts. Skipping this file.")
+            print(f"{Fore.RED}Submission failed after 3 attempts. Skipping this file.{Style.RESET_ALL}")
     else:
         highlight_element(driver, save_button)
-        print("Form is ready. Press Enter in terminal to submit.")
+        print(f"{Fore.CYAN}Form is ready. Press Enter in terminal to submit.{Style.RESET_ALL}")
         input()
         driver.execute_script("arguments[0].click();", save_button)
-        print("Form submitted manually.")
+        print(f"{Fore.GREEN}Form submitted manually.{Style.RESET_ALL}")
         # Wait for successful submission
         try:
             WebDriverWait(driver, 30).until(lambda d: '/downloads/add' not in d.current_url)
-            print("Submission successful, page redirected.")
+            print(f"{Fore.GREEN}Submission successful, page redirected.{Style.RESET_ALL}")
             time.sleep(2)
             # Mark as processed
+            zip_path = os.path.relpath(zip_path)
             mark_processed(zip_path)
-            print(f"Marked {zip_path} as processed.")
+            print(f"{Fore.GREEN}Marked {zip_path} as processed.{Style.RESET_ALL}")
             if shared_processed is not None:
                 with shared_processed.get_lock():
                     shared_processed.value += 1
                     print_progress(shared_processed.value, shared_total.value if shared_total else 0)
         except Exception as e:
-            print(f"Submission failed: {e}")
-            print("Not marking as processed.")
+            print(f"{Fore.RED}Submission failed: {e}{Style.RESET_ALL}")
+            print(f"{Fore.YELLOW}Not marking as processed.{Style.RESET_ALL}")
     
     if not shared_queue:
-        print("Preparing for next upload...")
+        print(f"{Fore.CYAN}Preparing for next upload...{Style.RESET_ALL}")
         driver.get(config['url'])
         WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.CSS_SELECTOR, "a.button--cta")))
         
@@ -194,7 +217,7 @@ def process_single_zip(zip_path, driver, config, lock, tag_to_use, shared_proces
         category_link.click()
         
         WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.NAME, "title")))
-        print("Ready for next zip.")
+        print(f"{Fore.GREEN}Ready for next zip.{Style.RESET_ALL}")
     
     if shared_queue:
         with shared_turn.get_lock():
@@ -217,13 +240,21 @@ def get_desc_and_tagline(zip_path):
                 if name.lower().endswith('readme.md'):
                     readme_path = name
                     break
+            base_name = os.path.basename(zip_path).replace('.zip', '').replace('_', ' ')
             if not readme_path:
-                return "No README.md found in the zip file.", "No README"
+                # Use filename (without .zip) when README is missing
+                return base_name, base_name
             content = zf.read(readme_path).decode('utf-8', errors='ignore')
+            if not content or not content.strip():
+                # Use filename when README is empty
+                return base_name, base_name
             tagline = content[:100].replace('\r\n', ' ').replace('\n', ' ').replace('\r', ' ')
             # Remove leading "Description:" to save space
             tagline = tagline.lstrip("Description:").lstrip("description:").strip()
-            return content, tagline
+            if not tagline:
+                tagline = base_name
+            description = content[:200]  # Limit description to 200 characters
+            return description, tagline
     except Exception as e:
         return f"Error reading zip: {e}", "Error"
 
@@ -255,9 +286,9 @@ def run_browser(config, lock=None, zips=None, shared_processed=None, shared_tota
     if zips is None:
         zip_files = glob.glob('zipsToUpload/*.zip')
         zips = [z for z in zip_files if not is_processed(z)]
-    print(f"Processing {len(zips)} zips in this browser.")
+    print(f"{Fore.CYAN}Processing {len(zips)} zips in this browser.{Style.RESET_ALL}")
     
-    print("Starting browser...")
+    print(f"{Fore.CYAN}Starting browser...{Style.RESET_ALL}")
     options = Options()
     options.add_argument(f"user-agent={config['user_agent']}")
     options.add_argument("--disable-blink-features=AutomationControlled")
@@ -265,28 +296,28 @@ def run_browser(config, lock=None, zips=None, shared_processed=None, shared_tota
     options.add_experimental_option('useAutomationExtension', False)
     # options.add_argument("--headless")  # Uncomment for headless mode if needed
 
-    print("Creating Chrome driver...")
+    print(f"{Fore.CYAN}Creating Chrome driver...{Style.RESET_ALL}")
     driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
     driver.execute_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined})")
-    print("Driver created successfully.")
+    print(f"{Fore.GREEN}Driver created successfully.{Style.RESET_ALL}")
 
     try:
-        print("Navigating to se7ensins.com...")
+        print(f"{Fore.CYAN}Navigating to se7ensins.com...{Style.RESET_ALL}")
         # Navigate to the domain to add cookies
         driver.get("https://www.se7ensins.com")
-        print("Navigated to se7ensins.com.")
+        print(f"{Fore.GREEN}Navigated to se7ensins.com.{Style.RESET_ALL}")
         
         # Load cookies from any JSON file in cookies/
-        print("Loading cookies...")
+        print(f"{Fore.CYAN}Loading cookies...{Style.RESET_ALL}")
         cookie_files = glob.glob('cookies/*.json')
-        print(f"Found cookie files: {cookie_files}")
+        print(f"{Fore.CYAN}Found cookie files: {cookie_files}{Style.RESET_ALL}")
         if not cookie_files:
-            print("No cookie JSON file found in cookies/")
+            print(f"{Fore.YELLOW}No cookie JSON file found in cookies/{Style.RESET_ALL}")
             return
         cookie_path = cookie_files[0]  # Use the first valid JSON file
         with open(cookie_path) as f:
             cookies = json.load(f)
-        print(f"Loaded {len(cookies)} cookies from {cookie_path}.")
+        print(f"{Fore.GREEN}Loaded {len(cookies)} cookies from {cookie_path}.{Style.RESET_ALL}")
         
         for cookie in cookies:
             # Normalize cookie for Selenium
@@ -301,52 +332,52 @@ def run_browser(config, lock=None, zips=None, shared_processed=None, shared_tota
                     # Remove invalid sameSite
                     del cookie['sameSite']
             driver.add_cookie(cookie)
-        print("Cookies added to browser.")
+        print(f"{Fore.GREEN}Cookies added to browser.{Style.RESET_ALL}")
         
         # Navigate to the target URL
-        print(f"Navigating to {config['url']}...")
+        print(f"{Fore.CYAN}Navigating to {config['url']}...{Style.RESET_ALL}")
         driver.get(config['url'])
-        print("Navigated to target URL.")
+        print(f"{Fore.GREEN}Navigated to target URL.{Style.RESET_ALL}")
         
         # Wait for page to load
-        print("Waiting for page to load...")
+        print(f"{Fore.CYAN}Waiting for page to load...{Style.RESET_ALL}")
         WebDriverWait(driver, 30).until(EC.presence_of_element_located((By.TAG_NAME, 'body')))
-        print("Page loaded successfully.")
+        print(f"{Fore.GREEN}Page loaded successfully.{Style.RESET_ALL}")
         
         if not config.get('skip_cloudflare', False):
-            print("Page loaded. Press Enter after bypassing Cloudflare if needed.")
+            print(f"{Fore.CYAN}Page loaded. Press Enter after bypassing Cloudflare if needed.{Style.RESET_ALL}")
             input()
         else:
-            print("Skipping Cloudflare bypass prompt.")
+            print(f"{Fore.CYAN}Skipping Cloudflare bypass prompt.{Style.RESET_ALL}")
         
         if barrier:
-            print("Waiting for all browsers to be ready...")
+            print(f"{Fore.CYAN}Waiting for all browsers to be ready...{Style.RESET_ALL}")
             try:
                 barrier.wait(timeout=10)
-                print("All browsers ready. Starting processing.")
+                print(f"{Fore.GREEN}All browsers ready. Starting processing.{Style.RESET_ALL}")
             except Exception as e:
-                print(f"Barrier timeout or error: {e}. Proceeding without sync.")
-                print("All browsers ready. Starting processing.")
+                print(f"{Fore.YELLOW}Barrier timeout or error: {e}. Proceeding without sync.{Style.RESET_ALL}")
+                print(f"{Fore.GREEN}All browsers ready. Starting processing.{Style.RESET_ALL}")
         
         if shared_turn is not None and turn_id is not None:
-            print(f"Waiting for my turn ({turn_id})...")
+            print(f"{Fore.CYAN}Waiting for my turn ({turn_id})...{Style.RESET_ALL}")
             while shared_turn.value != turn_id:
                 time.sleep(1)
-            print(f"My turn! Processing zips.")
+            print(f"{Fore.GREEN}My turn! Processing zips.{Style.RESET_ALL}")
         
         # Automation sequence
-        print("Finding Upload File button...")
+        print(f"{Fore.CYAN}Finding Upload File button...{Style.RESET_ALL}")
         upload_button = driver.find_element(By.XPATH, "//a[@href='/downloads/add']")
-        print("Upload button found.")
+        print(f"{Fore.GREEN}Upload button found.{Style.RESET_ALL}")
         highlight_element(driver, upload_button)
-        print("Clicking Upload File button...")
+        print(f"{Fore.CYAN}Clicking Upload File button...{Style.RESET_ALL}")
         upload_button.click()
-        print("Upload button clicked.")
+        print(f"{Fore.GREEN}Upload button clicked.{Style.RESET_ALL}")
         
         # Wait for category modal
-        print("Waiting for category modal...")
+        print(f"{Fore.CYAN}Waiting for category modal...{Style.RESET_ALL}")
         WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.CSS_SELECTOR, "div.overlay")))
-        print("Category modal appeared.")
+        print(f"{Fore.GREEN}Category modal appeared.{Style.RESET_ALL}")
         
         # Parse categories
         category_links = driver.find_elements(By.CSS_SELECTOR, "a.fauxBlockLink-blockLink")
@@ -362,9 +393,9 @@ def run_browser(config, lock=None, zips=None, shared_processed=None, shared_tota
         with open('categories.json', 'w') as f:
             json.dump(categories_dict, f, indent=4)
         
-        print("Available categories:")
+        print(f"{Fore.CYAN}Available categories:{Style.RESET_ALL}")
         for i, (name, href) in enumerate(categories, 1):
-            print(f"{i}. {name}")
+            print(f"{Fore.CYAN}{i}. {name}{Style.RESET_ALL}")
         
         # Check if category_id is set in config
         if config.get('category_id') is not None:
@@ -372,9 +403,9 @@ def run_browser(config, lock=None, zips=None, shared_processed=None, shared_tota
             if category_id in categories_dict:
                 selected_name = categories_dict[category_id]['name']
                 selected_href = categories_dict[category_id]['href']
-                print(f"Auto-selecting category: {selected_name}")
+                print(f"{Fore.GREEN}Auto-selecting category: {selected_name}{Style.RESET_ALL}")
             else:
-                print(f"Invalid category_id {category_id} in config. Available: {list(categories_dict.keys())}")
+                print(f"{Fore.RED}Invalid category_id {category_id} in config. Available: {list(categories_dict.keys())}{Style.RESET_ALL}")
                 return
         else:
             # Ask user to select
@@ -385,11 +416,11 @@ def run_browser(config, lock=None, zips=None, shared_processed=None, shared_tota
                         selected_name, selected_href = categories[choice]
                         break
                     else:
-                        print("Invalid choice. Try again.")
+                        print(f"{Fore.YELLOW}Invalid choice. Try again.{Style.RESET_ALL}")
                 except ValueError:
-                    print("Please enter a number.")
+                    print(f"{Fore.YELLOW}Please enter a number.{Style.RESET_ALL}")
         
-        print(f"Selecting category: {selected_name}")
+        print(f"{Fore.CYAN}Selecting category: {selected_name}{Style.RESET_ALL}")
         tag_to_use = config.get('tag')
         if not tag_to_use:
             tag_to_use = input("Enter the tag to use for this session: ")
@@ -397,17 +428,17 @@ def run_browser(config, lock=None, zips=None, shared_processed=None, shared_tota
         selected_link = driver.find_element(By.LINK_TEXT, selected_name)
         highlight_element(driver, selected_link)
         driver.execute_script("arguments[0].click();", selected_link)
-        print("Category selected.")
+        print(f"{Fore.GREEN}Category selected.{Style.RESET_ALL}")
         
         # Wait for category modal to close
-        print("Waiting for category modal to close...")
+        print(f"{Fore.CYAN}Waiting for category modal to close...{Style.RESET_ALL}")
         WebDriverWait(driver, 10).until(EC.invisibility_of_element_located((By.CSS_SELECTOR, "div.overlay")))
-        print("Category modal closed.")
+        print(f"{Fore.GREEN}Category modal closed.{Style.RESET_ALL}")
         
         # Wait for upload form
-        print("Waiting for upload form...")
+        print(f"{Fore.CYAN}Waiting for upload form...{Style.RESET_ALL}")
         WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.NAME, "title")))
-        print("Upload form loaded.")
+        print(f"{Fore.GREEN}Upload form loaded.{Style.RESET_ALL}")
         
         if shared_queue is not None:
             while True:
@@ -420,18 +451,18 @@ def run_browser(config, lock=None, zips=None, shared_processed=None, shared_tota
                 else:
                     time.sleep(1)
         else:
-            for zip_path in zips:
-                if not is_processed(zip_path):
-                    process_single_zip(zip_path, driver, config, lock, tag_to_use, shared_processed, shared_total, shared_queue, shared_turn, num_browsers, selected_name)
+            for i, zip_path in enumerate(zips, 1):
+                print(f"{Fore.CYAN}Processing {i}/{len(zips)} : {os.path.basename(zip_path)}{Style.RESET_ALL}")
+                process_single_zip(zip_path, driver, config, lock, tag_to_use, shared_processed, shared_total, shared_queue, shared_turn, num_browsers, selected_name)
         
     except Exception as e:
-        print(f"Error: {e}")
-        print("Full traceback:")
+        print(f"{Fore.RED}Error: {e}{Style.RESET_ALL}")
+        print(f"{Fore.RED}Full traceback:{Style.RESET_ALL}")
         traceback.print_exc()
     finally:
-        print("Closing browser...")
+        print(f"{Fore.CYAN}Closing browser...{Style.RESET_ALL}")
         driver.quit()
-        print("Browser closed.")
+        print(f"{Fore.GREEN}Browser closed.{Style.RESET_ALL}")
 
 def main():
     config = load_config()
@@ -443,7 +474,7 @@ def main():
     
     all_zips = [z for z in glob.glob('zipsToUpload/*.zip') if not is_processed(z)]
     if not all_zips:
-        print("No zips to process.")
+        print(f"{Fore.YELLOW}No zips to process.{Style.RESET_ALL}")
         return
     shared_total = multiprocessing.Value('i', len(all_zips))
     shared_processed = multiprocessing.Value('i', 0)
@@ -463,7 +494,7 @@ def main():
             p.start()
             processes.append(p)
             if i < num_browsers - 1:
-                print("waiting 10 seconds between browser windows to avoid pissing off Cloudflare...")
+                print(f"{Fore.YELLOW}waiting 10 seconds between browser windows to avoid pissing off Cloudflare...{Style.RESET_ALL}")
                 time.sleep(10)
         
         for p in processes:

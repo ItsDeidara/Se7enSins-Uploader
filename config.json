@@ -1,12 +1,16 @@
 {
-  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
-  "url": "https://www.se7ensins.com/downloads/",
-  "num_browsers": 1,
-  "auto_submit": false,
-  "skip_cloudflare": true,
-  "category_id": null,
-  "tag": null,
-  "upload_wait_timeout": 180,
-  "upload_wait_base": 30,
-  "upload_wait_per_mb": 0.75
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+    "site": "se7ensins",
+    "url": null,
+    "num_browsers": 1,
+    "auto_submit": true,
+    "skip_cloudflare": false,
+    "manual_cloudflare": false,
+    "use_undetected_chromedriver": true,
+    "category_id": 13,
+    "tag": "xbox 360",
+    "upload_wait_timeout": 180,
+    "upload_wait_base": 5,
+    "upload_wait_per_mb": 0.2,
+    "selectors": {}
 }

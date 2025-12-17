@@ -36,7 +36,7 @@ To authenticate with Se7enSins, you need to export your session cookies:
 
 4. Save the JSON file in the `cookies/` folder (e.g., `cookies/my_cookies.json`).
 
-The bot will automatically detect and load any valid JSON cookie file from the `cookies/` folder, regardless of filename.
+The bot will automatically detect and load any valid JSON cookie file from the `cookies/` folder. If a file named `cookies/{site}.json` exists (for example `cookies/gbatemp.json` when `site` is set to `gbatemp` in `config.json`), it will be preferred. To target GBAtemp, set `site` to `gbatemp` and `url` to `https://gbatemp.net/download/`, and place your cookies in `cookies/gbatemp.json`.
 
 ## Configuration
 
@@ -70,6 +70,19 @@ The bot will automatically process all zip files in `zipsToUpload/` that haven't
    ```
    python main.py
    ```
+
+### GUI
+
+A simple dark-mode GUI is included to edit `config.json` in real time and to run uploads directly from the GUI (standalone) without invoking the CLI `main.py`.
+
+The GUI also supports importing `categories.json` (or will load an existing one) so you can select the upload category directly in the GUI — selecting a category sets `category_id` in `config.json`.
+
+Changes made in the GUI are written immediately to `config.json` and the GUI picks them up at runtime (tags, upload timing, auto-submit, skip-cloudflare, category selection, etc.).
+
+Start the GUI with:
+```bash
+python GUI.py
+```
 
 4. The bot will:
    - Launch Chrome with the specified user agent and stealth options.
@@ -114,7 +127,7 @@ For multiple browsers (`num_browsers` > 1), each instance runs in a separate pro
 - **Browser doesn't load**: Update the user agent in `config.json`.
 - **Cloudflare blocks**: Manually bypass or set `skip_cloudflare` to true.
 - **Selenium errors**: Ensure Chrome is installed and up-to-date. webdriver-manager handles ChromeDriver.
-- **Multiple cookie files**: The bot uses the first JSON file found alphabetically.
+- **Multiple cookie files**: The bot prefers a file named `cookies/{site}.json` (e.g., `cookies/gbatemp.json`), otherwise it uses the first JSON file found alphabetically.
 - **File upload fails**: Ensure PyAutoGUI can interact with the dialog; may need to adjust timings.
 - **Category not found**: Run once to generate `categories.json`, then set `category_id`.
 - **Tags not filling**: Ensure the Tagify component is loaded; the bot targets the input span. Set `tag` in config or enter manually when prompted.
